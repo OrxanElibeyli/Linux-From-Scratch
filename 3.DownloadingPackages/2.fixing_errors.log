@@ -1,0 +1,107 @@
+orxan@ubuntuserver:/mnt/lfs/sources
+-->$ wget http://www.mpfr.org/mpfr-4.0.2/mpfr-4.0.2.tar.xz
+--2020-08-12 13:02:05--  http://www.mpfr.org/mpfr-4.0.2/mpfr-4.0.2.tar.xz
+Resolving www.mpfr.org (www.mpfr.org)... 152.81.144.153
+Connecting to www.mpfr.org (www.mpfr.org)|152.81.144.153|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://www.mpfr.org/mpfr-4.0.2/mpfr-4.0.2.tar.xz [following]
+--2020-08-12 13:02:11--  https://www.mpfr.org/mpfr-4.0.2/mpfr-4.0.2.tar.xz
+Connecting to www.mpfr.org (www.mpfr.org)|152.81.144.153|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1441996 (1.4M) [application/x-xz]
+Saving to: ‘mpfr-4.0.2.tar.xz’
+
+mpfr-4.0.2.tar.xz                         100%[=====================================================================================>]   1.38M   419KB/s    in 3.4s
+
+2020-08-12 13:02:17 (419 KB/s) - ‘mpfr-4.0.2.tar.xz’ saved [1441996/1441996]
+
+orxan@ubuntuserver:/mnt/lfs/sources
+-->$ cat md5sums | mpfr-4.0.2.tar.xz
+^Corxan@ubuntuserver:/mnt/lfs/sources
+-->$ cat md5sums | grep mpfr-4.0.2.tar.xz
+320fbc4463d4c8cb1e566929d8adc4f8  mpfr-4.0.2.tar.xz
+orxan@ubuntuserver:/mnt/lfs/sources
+-->$ man md5sum
+morxan@ubuntuserver:/mnt/lfs/sources
+-->$ md5sum 320fbc4463d4c8cb1e566929d8adc4f8  mpfr-4.0.2.tar.xz
+md5sum: 320fbc4463d4c8cb1e566929d8adc4f8: No such file or directory
+320fbc4463d4c8cb1e566929d8adc4f8  mpfr-4.0.2.tar.xz
+orxan@ubuntuserver:/mnt/lfs/sources
+-->$ echo "320fbc4463d4c8cb1e566929d8adc4f8  mpfr-4.0.2.tar.xz" > md5
+orxan@ubuntuserver:/mnt/lfs/sources
+-->$ md5sum -c md5
+mpfr-4.0.2.tar.xz: OK
+orxan@ubuntuserver:/mnt/lfs/sources
+-->$ cat md5_errors
+md5sum: file-5.38.tar.gz: No such file or directory
+md5sum: linux-5.5.3.tar.xz: No such file or directory
+md5sum: mpfr-4.0.2.tar.xz: No such file or directory
+md5sum: vim-8.2.0190.tar.gz: No such file or directory
+md5sum: WARNING: 4 listed files could not be read
+orxan@ubuntuserver:/mnt/lfs/sources
+-->$ wget ftp://ftp.astron.com/pub/file/file-5.38.tar.gz
+--2020-08-12 13:23:07--  ftp://ftp.astron.com/pub/file/file-5.38.tar.gz
+           => ‘file-5.38.tar.gz’
+Resolving ftp.astron.com (ftp.astron.com)... 38.117.134.18, 2620:106:3003:1f00:9e8e:99ff:fe15:cae4
+Connecting to ftp.astron.com (ftp.astron.com)|38.117.134.18|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/file ... done.
+==> SIZE file-5.38.tar.gz ... 932528
+==> PASV ... done.    ==> RETR file-5.38.tar.gz ... done.
+Length: 932528 (911K) (unauthoritative)
+
+file-5.38.tar.gz                          100%[=====================================================================================>] 910.67K   321KB/s    in 2.8s
+
+2020-08-12 13:23:14 (321 KB/s) - ‘file-5.38.tar.gz’ saved [932528]
+
+orxan@ubuntuserver:/mnt/lfs/sources
+-->$ echo | cat md5sums | grep  file-5.38.tar.gz > md5
+orxan@ubuntuserver:/mnt/lfs/sources
+-->$ md5sum -c md5
+file-5.38.tar.gz: OK
+orxan@ubuntuserver:/mnt/lfs/sources
+-->$
+orxan@ubuntuserver:/mnt/lfs/sources
+-->$ wget http://anduin.linuxfromscratch.org/LFS/vim-8.2.0190.tar.gz
+--2020-08-12 13:25:51--  http://anduin.linuxfromscratch.org/LFS/vim-8.2.0190.tar.gz
+Resolving anduin.linuxfromscratch.org (anduin.linuxfromscratch.org)... 45.33.5.237
+Connecting to anduin.linuxfromscratch.org (anduin.linuxfromscratch.org)|45.33.5.237|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 14751521 (14M) [application/x-gzip]
+Saving to: ‘vim-8.2.0190.tar.gz’
+
+vim-8.2.0190.tar.gz                       100%[=====================================================================================>]  14.07M  2.21MB/s    in 13s
+
+2020-08-12 13:26:06 (1.05 MB/s) - ‘vim-8.2.0190.tar.gz’ saved [14751521/14751521]
+
+orxan@ubuntuserver:/mnt/lfs/sources
+-->$ echo | cat md5sums | grep   vim-8.2.0190.tar.gz > md5
+orxan@ubuntuserver:/mnt/lfs/sources
+-->$ md5sum -c md5
+vim-8.2.0190.tar.gz: OK
+orxan@ubuntuserver:/mnt/lfs/sources
+-->$ wget https://www.kernel.org/pub/linux/kernel/v5.x/linux-5.5.3.tar.xz
+--2020-08-12 13:28:32--  https://www.kernel.org/pub/linux/kernel/v5.x/linux-5.5.3.tar.xz
+Resolving www.kernel.org (www.kernel.org)... 136.144.49.103, 2604:1380:40b0:1a00::1
+Connecting to www.kernel.org (www.kernel.org)|136.144.49.103|:443... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://mirrors.edge.kernel.org/pub/linux/kernel/v5.x/linux-5.5.3.tar.xz [following]
+--2020-08-12 13:28:35--  https://mirrors.edge.kernel.org/pub/linux/kernel/v5.x/linux-5.5.3.tar.xz
+Resolving mirrors.edge.kernel.org (mirrors.edge.kernel.org)... 147.75.101.1, 2604:1380:2001:3900::1
+Connecting to mirrors.edge.kernel.org (mirrors.edge.kernel.org)|147.75.101.1|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 110706004 (106M) [application/x-xz]
+Saving to: ‘linux-5.5.3.tar.xz’
+
+linux-5.5.3.tar.xz                        100%[=====================================================================================>] 105.58M   565KB/s    in 2m 32s
+
+2020-08-12 13:31:08 (710 KB/s) - ‘linux-5.5.3.tar.xz’ saved [110706004/110706004]
+
+orxan@ubuntuserver:/mnt/lfs/sources
+-->$ echo | cat md5sums | grep   linux-5.5.3.tar.xz > md5
+orxan@ubuntuserver:/mnt/lfs/sources
+-->$ md5sum -c md5
+linux-5.5.3.tar.xz: OK
+orxan@ubuntuserver:/mnt/lfs/sources
+-->$ 

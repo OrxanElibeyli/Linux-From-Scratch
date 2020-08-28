@@ -1,0 +1,5 @@
+1. execute command below for downloading packages (see man wget for help).
+   wget --input-file=wget-list --continue --directory-prefix=$LFS/sources
+
+2. execude command below for checking availability (see man md5sum for help).
+   md5sum -c md5sums       (md5sums is file where hash codes are allocated)

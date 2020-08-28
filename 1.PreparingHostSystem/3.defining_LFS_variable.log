@@ -1,0 +1,7 @@
+orxan@ubuntuserver:~$ echo $LFS
+
+orxan@ubuntuserver:~$ echo "export LFS=/mnt/lfs" >> .bashrc
+orxan@ubuntuserver:~$ source .bashrc
+orxan@ubuntuserver:~$ echo $LFS
+/mnt/lfs
+orxan@ubuntuserver:~$

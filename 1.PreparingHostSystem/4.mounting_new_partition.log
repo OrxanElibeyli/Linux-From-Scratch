@@ -1,0 +1,11 @@
+orxan@ubuntuserver:~$ mkdir -pv $LFS
+orxan@ubuntuserver:~$ echo $LFS
+/mnt/lfs
+orxan@ubuntuserver:~$ mount -v -t ext4 /dev/sda3
+mount: only root can use "--types" option
+orxan@ubuntuserver:~$ sudo mount -v -t ext4 /dev/sda3
+[sudo] password for orxan:
+mount: /dev/sda3: can't find in /etc/fstab.
+orxan@ubuntuserver:~$ sudo mount -v -t ext4 /dev/sda3 $LFS
+mount: /dev/sda3 mounted on /mnt/lfs.
+orxan@ubuntuserver:~$

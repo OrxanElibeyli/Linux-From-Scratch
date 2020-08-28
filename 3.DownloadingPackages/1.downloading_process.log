@@ -1,0 +1,1929 @@
+orxan@ubuntuserver:~/GIT/Linux-From-Scratch/NecessaryPackages$ ls
+Links_for_download  md5sums  usage
+orxan@ubuntuserver:~/GIT/Linux-From-Scratch/NecessaryPackages$ wget --input-file=Links_for_download --cont                                                              inue --directory-prefix=$LFS/sources
+--2020-08-09 18:20:21--  http://download.savannah.gnu.org/releases/acl/acl-2.2.53.tar.gz
+Resolving download.savannah.gnu.org (download.savannah.gnu.org)... 209.51.188.200, 2001:470:142:5::200
+Connecting to download.savannah.gnu.org (download.savannah.gnu.org)|209.51.188.200|:80... connected.
+HTTP request sent, awaiting response... 302 Moved Temporarily
+Location: http://mirror.rackdc.com/savannah/acl/acl-2.2.53.tar.gz [following]
+--2020-08-09 18:20:23--  http://mirror.rackdc.com/savannah/acl/acl-2.2.53.tar.gz
+Resolving mirror.rackdc.com (mirror.rackdc.com)... 94.103.32.100, 2a00:7300:1::100
+Connecting to mirror.rackdc.com (mirror.rackdc.com)|94.103.32.100|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 524300 (512K) [application/x-gzip]
+Saving to: ‘/mnt/lfs/sources/acl-2.2.53.tar.gz’
+
+acl-2.2.53.tar.gz          100%[======================================>] 512.01K   455KB/s    in 1.1s
+
+2020-08-09 18:20:25 (455 KB/s) - ‘/mnt/lfs/sources/acl-2.2.53.tar.gz’ saved [524300/524300]
+
+--2020-08-09 18:20:25--  http://download.savannah.gnu.org/releases/attr/attr-2.4.48.tar.gz
+Connecting to download.savannah.gnu.org (download.savannah.gnu.org)|209.51.188.200|:80... connected.
+HTTP request sent, awaiting response... 302 Moved Temporarily
+Location: http://mirror.rackdc.com/savannah/attr/attr-2.4.48.tar.gz [following]
+--2020-08-09 18:20:26--  http://mirror.rackdc.com/savannah/attr/attr-2.4.48.tar.gz
+Connecting to mirror.rackdc.com (mirror.rackdc.com)|94.103.32.100|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 467840 (457K) [application/x-gzip]
+Saving to: ‘/mnt/lfs/sources/attr-2.4.48.tar.gz’
+
+attr-2.4.48.tar.gz         100%[======================================>] 456.88K   439KB/s    in 1.0s
+
+2020-08-09 18:20:27 (439 KB/s) - ‘/mnt/lfs/sources/attr-2.4.48.tar.gz’ saved [467840/467840]
+
+--2020-08-09 18:20:27--  http://ftp.gnu.org/gnu/autoconf/autoconf-2.69.tar.xz
+Resolving ftp.gnu.org (ftp.gnu.org)... 209.51.188.20, 2001:470:142:3::b
+Connecting to ftp.gnu.org (ftp.gnu.org)|209.51.188.20|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1214744 (1.2M) [application/x-xz]
+Saving to: ‘/mnt/lfs/sources/autoconf-2.69.tar.xz’
+
+autoconf-2.69.tar.xz       100%[======================================>]   1.16M   677KB/s    in 1.8s
+
+2020-08-09 18:20:29 (677 KB/s) - ‘/mnt/lfs/sources/autoconf-2.69.tar.xz’ saved [1214744/1214744]
+
+--2020-08-09 18:20:29--  http://ftp.gnu.org/gnu/automake/automake-1.16.1.tar.xz
+Reusing existing connection to ftp.gnu.org:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1534936 (1.5M) [application/x-xz]
+Saving to: ‘/mnt/lfs/sources/automake-1.16.1.tar.xz’
+
+automake-1.16.1.tar.xz     100%[======================================>]   1.46M  1.16MB/s    in 1.3s
+
+2020-08-09 18:20:31 (1.16 MB/s) - ‘/mnt/lfs/sources/automake-1.16.1.tar.xz’ saved [1534936/1534936]
+
+--2020-08-09 18:20:31--  http://ftp.gnu.org/gnu/bash/bash-5.0.tar.gz
+Reusing existing connection to ftp.gnu.org:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 10135110 (9.7M) [application/x-gzip]
+Saving to: ‘/mnt/lfs/sources/bash-5.0.tar.gz’
+
+bash-5.0.tar.gz            100%[======================================>]   9.67M  1.50MB/s    in 7.0s
+
+2020-08-09 18:20:38 (1.38 MB/s) - ‘/mnt/lfs/sources/bash-5.0.tar.gz’ saved [10135110/10135110]
+
+--2020-08-09 18:20:38--  https://github.com/gavinhoward/bc/archive/2.5.3/bc-2.5.3.tar.gz
+Resolving github.com (github.com)... 140.82.118.3
+Connecting to github.com (github.com)|140.82.118.3|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://codeload.github.com/gavinhoward/bc/tar.gz/2.5.3 [following]
+--2020-08-09 18:20:40--  https://codeload.github.com/gavinhoward/bc/tar.gz/2.5.3
+Resolving codeload.github.com (codeload.github.com)... 140.82.112.9
+Connecting to codeload.github.com (codeload.github.com)|140.82.112.9|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 252149 (246K) [application/x-gzip]
+Saving to: ‘/mnt/lfs/sources/bc-2.5.3.tar.gz’
+
+bc-2.5.3.tar.gz            100%[======================================>] 246.24K   317KB/s    in 0.8s
+
+2020-08-09 18:20:41 (317 KB/s) - ‘/mnt/lfs/sources/bc-2.5.3.tar.gz’ saved [252149/252149]
+
+--2020-08-09 18:20:41--  http://ftp.gnu.org/gnu/binutils/binutils-2.34.tar.xz
+Connecting to ftp.gnu.org (ftp.gnu.org)|209.51.188.20|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 21637796 (21M) [application/x-xz]
+Saving to: ‘/mnt/lfs/sources/binutils-2.34.tar.xz’
+
+binutils-2.34.tar.xz       100%[======================================>]  20.63M  1.31MB/s    in 19s
+
+2020-08-09 18:21:01 (1.09 MB/s) - ‘/mnt/lfs/sources/binutils-2.34.tar.xz’ saved [21637796/21637796]
+
+--2020-08-09 18:21:01--  http://ftp.gnu.org/gnu/bison/bison-3.5.2.tar.xz
+Reusing existing connection to ftp.gnu.org:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 2362956 (2.3M) [application/x-xz]
+Saving to: ‘/mnt/lfs/sources/bison-3.5.2.tar.xz’
+
+bison-3.5.2.tar.xz         100%[======================================>]   2.25M  1.57MB/s    in 1.4s
+
+2020-08-09 18:21:02 (1.57 MB/s) - ‘/mnt/lfs/sources/bison-3.5.2.tar.xz’ saved [2362956/2362956]
+
+--2020-08-09 18:21:02--  https://www.sourceware.org/pub/bzip2/bzip2-1.0.8.tar.gz
+Resolving www.sourceware.org (www.sourceware.org)... 8.43.85.97, 2620:52:3:1:0:246e:9693:128c
+Connecting to www.sourceware.org (www.sourceware.org)|8.43.85.97|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 810029 (791K) [application/x-gzip]
+Saving to: ‘/mnt/lfs/sources/bzip2-1.0.8.tar.gz’
+
+bzip2-1.0.8.tar.gz         100%[======================================>] 791.04K   540KB/s    in 1.5s
+
+2020-08-09 18:21:05 (540 KB/s) - ‘/mnt/lfs/sources/bzip2-1.0.8.tar.gz’ saved [810029/810029]
+
+--2020-08-09 18:21:05--  https://github.com/libcheck/check/releases/download/0.14.0/check-0.14.0.tar.gz
+Connecting to github.com (github.com)|140.82.118.3|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://github-production-release-asset-2e65be.s3.amazonaws.com/48520045/5eb1d580-4022-11ea-9ec5                                                              -7d1c9972e386?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20200809%2Fus-east-                                                              1%2Fs3%2Faws4_request&X-Amz-Date=20200809T182106Z&X-Amz-Expires=300&X-Amz-Signature=325423ac218f09086cdae5                                                              957b3e7d1b55c982e0af1a460750a95cfc10c824af&X-Amz-SignedHeaders=host&actor_id=0&repo_id=48520045&response-c                                                              ontent-disposition=attachment%3B%20filename%3Dcheck-0.14.0.tar.gz&response-content-type=application%2Focte                                                              t-stream [following]
+--2020-08-09 18:21:06--  https://github-production-release-asset-2e65be.s3.amazonaws.com/48520045/5eb1d580                                                              -4022-11ea-9ec5-7d1c9972e386?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F2020                                                              0809%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20200809T182106Z&X-Amz-Expires=300&X-Amz-Signature=325423a                                                              c218f09086cdae5957b3e7d1b55c982e0af1a460750a95cfc10c824af&X-Amz-SignedHeaders=host&actor_id=0&repo_id=4852                                                              0045&response-content-disposition=attachment%3B%20filename%3Dcheck-0.14.0.tar.gz&response-content-type=app                                                              lication%2Foctet-stream
+Resolving github-production-release-asset-2e65be.s3.amazonaws.com (github-production-release-asset-2e65be.                                                              s3.amazonaws.com)... 52.216.82.136
+Connecting to github-production-release-asset-2e65be.s3.amazonaws.com (github-production-release-asset-2e6                                                              5be.s3.amazonaws.com)|52.216.82.136|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 770800 (753K) [application/octet-stream]
+Saving to: ‘/mnt/lfs/sources/check-0.14.0.tar.gz’
+
+check-0.14.0.tar.gz        100%[======================================>] 752.73K   457KB/s    in 1.6s
+
+2020-08-09 18:21:09 (457 KB/s) - ‘/mnt/lfs/sources/check-0.14.0.tar.gz’ saved [770800/770800]
+
+--2020-08-09 18:21:09--  http://ftp.gnu.org/gnu/coreutils/coreutils-8.31.tar.xz
+Connecting to ftp.gnu.org (ftp.gnu.org)|209.51.188.20|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 5410140 (5.2M) [application/x-xz]
+Saving to: ‘/mnt/lfs/sources/coreutils-8.31.tar.xz’
+
+coreutils-8.31.tar.xz      100%[======================================>]   5.16M  1.61MB/s    in 3.2s
+
+2020-08-09 18:21:13 (1.61 MB/s) - ‘/mnt/lfs/sources/coreutils-8.31.tar.xz’ saved [5410140/5410140]
+
+--2020-08-09 18:21:13--  https://dbus.freedesktop.org/releases/dbus/dbus-1.12.16.tar.gz
+Resolving dbus.freedesktop.org (dbus.freedesktop.org)... 131.252.210.176, 2610:10:20:722:a800:ff:feda:470f
+Connecting to dbus.freedesktop.org (dbus.freedesktop.org)|131.252.210.176|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 2093296 (2.0M) [application/x-gzip]
+Saving to: ‘/mnt/lfs/sources/dbus-1.12.16.tar.gz’
+
+dbus-1.12.16.tar.gz        100%[======================================>]   2.00M   734KB/s    in 2.8s
+
+2020-08-09 18:21:17 (734 KB/s) - ‘/mnt/lfs/sources/dbus-1.12.16.tar.gz’ saved [2093296/2093296]
+
+--2020-08-09 18:21:17--  http://ftp.gnu.org/gnu/dejagnu/dejagnu-1.6.2.tar.gz
+Connecting to ftp.gnu.org (ftp.gnu.org)|209.51.188.20|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 525879 (514K) [application/x-gzip]
+Saving to: ‘/mnt/lfs/sources/dejagnu-1.6.2.tar.gz’
+
+dejagnu-1.6.2.tar.gz       100%[======================================>] 513.55K   497KB/s    in 1.0s
+
+2020-08-09 18:21:19 (497 KB/s) - ‘/mnt/lfs/sources/dejagnu-1.6.2.tar.gz’ saved [525879/525879]
+
+--2020-08-09 18:21:19--  http://ftp.gnu.org/gnu/diffutils/diffutils-3.7.tar.xz
+Reusing existing connection to ftp.gnu.org:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1448828 (1.4M) [application/x-xz]
+Saving to: ‘/mnt/lfs/sources/diffutils-3.7.tar.xz’
+
+diffutils-3.7.tar.xz       100%[======================================>]   1.38M  2.27MB/s    in 0.6s
+
+2020-08-09 18:21:20 (2.27 MB/s) - ‘/mnt/lfs/sources/diffutils-3.7.tar.xz’ saved [1448828/1448828]
+
+--2020-08-09 18:21:20--  https://downloads.sourceforge.net/project/e2fsprogs/e2fsprogs/v1.45.5/e2fsprogs-1                                                              .45.5.tar.gz
+Resolving downloads.sourceforge.net (downloads.sourceforge.net)... 216.105.38.13
+Connecting to downloads.sourceforge.net (downloads.sourceforge.net)|216.105.38.13|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://netix.dl.sourceforge.net/project/e2fsprogs/e2fsprogs/v1.45.5/e2fsprogs-1.45.5.tar.gz [fo                                                              llowing]
+--2020-08-09 18:21:21--  https://netix.dl.sourceforge.net/project/e2fsprogs/e2fsprogs/v1.45.5/e2fsprogs-1.                                                              45.5.tar.gz
+Resolving netix.dl.sourceforge.net (netix.dl.sourceforge.net)... 87.121.121.2
+Connecting to netix.dl.sourceforge.net (netix.dl.sourceforge.net)|87.121.121.2|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 7938826 (7.6M) [application/x-gzip]
+Saving to: ‘/mnt/lfs/sources/e2fsprogs-1.45.5.tar.gz’
+
+e2fsprogs-1.45.5.tar.gz    100%[======================================>]   7.57M  2.33MB/s    in 3.2s
+
+2020-08-09 18:21:25 (2.33 MB/s) - ‘/mnt/lfs/sources/e2fsprogs-1.45.5.tar.gz’ saved [7938826/7938826]
+
+--2020-08-09 18:21:25--  https://sourceware.org/ftp/elfutils/0.178/elfutils-0.178.tar.bz2
+Resolving sourceware.org (sourceware.org)... 8.43.85.97, 2620:52:3:1:0:246e:9693:128c
+Connecting to sourceware.org (sourceware.org)|8.43.85.97|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 9007557 (8.6M) [application/x-bzip2]
+Saving to: ‘/mnt/lfs/sources/elfutils-0.178.tar.bz2’
+
+elfutils-0.178.tar.bz2     100%[======================================>]   8.59M  1.35MB/s    in 7.8s
+
+2020-08-09 18:21:34 (1.10 MB/s) - ‘/mnt/lfs/sources/elfutils-0.178.tar.bz2’ saved [9007557/9007557]
+
+--2020-08-09 18:21:34--  https://dev.gentoo.org/~blueness/eudev/eudev-3.2.9.tar.gz
+Resolving dev.gentoo.org (dev.gentoo.org)... 140.211.166.183, 2001:470:ea4a:1:5054:ff:fec7:86e4
+Connecting to dev.gentoo.org (dev.gentoo.org)|140.211.166.183|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1959836 (1.9M) [application/x-gzip]
+Saving to: ‘/mnt/lfs/sources/eudev-3.2.9.tar.gz’
+
+eudev-3.2.9.tar.gz         100%[======================================>]   1.87M   876KB/s    in 2.2s
+
+2020-08-09 18:21:37 (876 KB/s) - ‘/mnt/lfs/sources/eudev-3.2.9.tar.gz’ saved [1959836/1959836]
+
+--2020-08-09 18:21:37--  https://prdownloads.sourceforge.net/expat/expat-2.2.9.tar.xz
+Resolving prdownloads.sourceforge.net (prdownloads.sourceforge.net)... 216.105.38.13
+Connecting to prdownloads.sourceforge.net (prdownloads.sourceforge.net)|216.105.38.13|:443... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://downloads.sourceforge.net/project/expat/expat/2.2.9/expat-2.2.9.tar.xz [following]
+--2020-08-09 18:21:38--  https://downloads.sourceforge.net/project/expat/expat/2.2.9/expat-2.2.9.tar.xz
+Connecting to downloads.sourceforge.net (downloads.sourceforge.net)|216.105.38.13|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://netix.dl.sourceforge.net/project/expat/expat/2.2.9/expat-2.2.9.tar.xz [following]
+--2020-08-09 18:21:40--  https://netix.dl.sourceforge.net/project/expat/expat/2.2.9/expat-2.2.9.tar.xz
+Connecting to netix.dl.sourceforge.net (netix.dl.sourceforge.net)|87.121.121.2|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 422460 (413K) [application/octet-stream]
+Saving to: ‘/mnt/lfs/sources/expat-2.2.9.tar.xz’
+
+expat-2.2.9.tar.xz         100%[======================================>] 412.56K   380KB/s    in 1.1s
+
+2020-08-09 18:21:42 (380 KB/s) - ‘/mnt/lfs/sources/expat-2.2.9.tar.xz’ saved [422460/422460]
+
+--2020-08-09 18:21:42--  https://prdownloads.sourceforge.net/expect/expect5.45.4.tar.gz
+Connecting to prdownloads.sourceforge.net (prdownloads.sourceforge.net)|216.105.38.13|:443... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://downloads.sourceforge.net/project/expect/Expect/5.45.4/expect5.45.4.tar.gz [following]
+--2020-08-09 18:21:43--  https://downloads.sourceforge.net/project/expect/Expect/5.45.4/expect5.45.4.tar.g                                                              z
+Connecting to downloads.sourceforge.net (downloads.sourceforge.net)|216.105.38.13|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://netix.dl.sourceforge.net/project/expect/Expect/5.45.4/expect5.45.4.tar.gz [following]
+--2020-08-09 18:21:45--  https://netix.dl.sourceforge.net/project/expect/Expect/5.45.4/expect5.45.4.tar.gz
+Connecting to netix.dl.sourceforge.net (netix.dl.sourceforge.net)|87.121.121.2|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 632363 (618K) [application/x-gzip]
+Saving to: ‘/mnt/lfs/sources/expect5.45.4.tar.gz’
+
+expect5.45.4.tar.gz        100%[======================================>] 617.54K   850KB/s    in 0.7s
+
+2020-08-09 18:21:46 (850 KB/s) - ‘/mnt/lfs/sources/expect5.45.4.tar.gz’ saved [632363/632363]
+
+--2020-08-09 18:21:46--  http://ftp.gnu.org/gnu/findutils/findutils-4.7.0.tar.xz
+Connecting to ftp.gnu.org (ftp.gnu.org)|209.51.188.20|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1895048 (1.8M) [application/x-xz]
+Saving to: ‘/mnt/lfs/sources/findutils-4.7.0.tar.xz’
+
+findutils-4.7.0.tar.xz     100%[======================================>]   1.81M  1.08MB/s    in 1.7s
+
+2020-08-09 18:21:48 (1.08 MB/s) - ‘/mnt/lfs/sources/findutils-4.7.0.tar.xz’ saved [1895048/1895048]
+
+--2020-08-09 18:21:48--  https://github.com/westes/flex/releases/download/v2.6.4/flex-2.6.4.tar.gz
+Connecting to github.com (github.com)|140.82.118.3|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://github-production-release-asset-2e65be.s3.amazonaws.com/14521001/23794388-327c-11e7-8219                                                              -c41432b94acf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20200809%2Fus-east-                                                              1%2Fs3%2Faws4_request&X-Amz-Date=20200809T182149Z&X-Amz-Expires=300&X-Amz-Signature=0f970b618203bab8114804                                                              f44fb2d4cc6f6a1b4c2efce3403aa7377d04d77307&X-Amz-SignedHeaders=host&actor_id=0&repo_id=14521001&response-c                                                              ontent-disposition=attachment%3B%20filename%3Dflex-2.6.4.tar.gz&response-content-type=application%2Foctet-                                                              stream [following]
+--2020-08-09 18:21:49--  https://github-production-release-asset-2e65be.s3.amazonaws.com/14521001/23794388                                                              -327c-11e7-8219-c41432b94acf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F2020                                                              0809%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20200809T182149Z&X-Amz-Expires=300&X-Amz-Signature=0f970b6                                                              18203bab8114804f44fb2d4cc6f6a1b4c2efce3403aa7377d04d77307&X-Amz-SignedHeaders=host&actor_id=0&repo_id=1452                                                              1001&response-content-disposition=attachment%3B%20filename%3Dflex-2.6.4.tar.gz&response-content-type=appli                                                              cation%2Foctet-stream
+Connecting to github-production-release-asset-2e65be.s3.amazonaws.com (github-production-release-asset-2e6                                                              5be.s3.amazonaws.com)|52.216.82.136|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1419096 (1.4M) [application/octet-stream]
+Saving to: ‘/mnt/lfs/sources/flex-2.6.4.tar.gz’
+
+flex-2.6.4.tar.gz          100%[======================================>]   1.35M  1.10MB/s    in 1.2s
+
+2020-08-09 18:21:51 (1.10 MB/s) - ‘/mnt/lfs/sources/flex-2.6.4.tar.gz’ saved [1419096/1419096]
+
+--2020-08-09 18:21:51--  http://ftp.gnu.org/gnu/gawk/gawk-5.0.1.tar.xz
+Connecting to ftp.gnu.org (ftp.gnu.org)|209.51.188.20|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 3136004 (3.0M) [application/x-xz]
+Saving to: ‘/mnt/lfs/sources/gawk-5.0.1.tar.xz’
+
+gawk-5.0.1.tar.xz          100%[======================================>]   2.99M  1.55MB/s    in 1.9s
+
+2020-08-09 18:21:53 (1.55 MB/s) - ‘/mnt/lfs/sources/gawk-5.0.1.tar.xz’ saved [3136004/3136004]
+
+--2020-08-09 18:21:53--  http://ftp.gnu.org/gnu/gcc/gcc-9.2.0/gcc-9.2.0.tar.xz
+Reusing existing connection to ftp.gnu.org:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 70607648 (67M) [application/x-xz]
+Saving to: ‘/mnt/lfs/sources/gcc-9.2.0.tar.xz’
+
+gcc-9.2.0.tar.xz           100%[======================================>]  67.34M  3.28MB/s    in 23s
+
+2020-08-09 18:22:16 (2.98 MB/s) - ‘/mnt/lfs/sources/gcc-9.2.0.tar.xz’ saved [70607648/70607648]
+
+--2020-08-09 18:22:16--  http://ftp.gnu.org/gnu/gdbm/gdbm-1.18.1.tar.gz
+Reusing existing connection to ftp.gnu.org:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 941863 (920K) [application/x-gzip]
+Saving to: ‘/mnt/lfs/sources/gdbm-1.18.1.tar.gz’
+
+gdbm-1.18.1.tar.gz         100%[======================================>] 919.79K  3.87MB/s    in 0.2s
+
+2020-08-09 18:22:17 (3.87 MB/s) - ‘/mnt/lfs/sources/gdbm-1.18.1.tar.gz’ saved [941863/941863]
+
+--2020-08-09 18:22:17--  http://ftp.gnu.org/gnu/gettext/gettext-0.20.1.tar.xz
+Reusing existing connection to ftp.gnu.org:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 9346544 (8.9M) [application/x-xz]
+Saving to: ‘/mnt/lfs/sources/gettext-0.20.1.tar.xz’
+
+gettext-0.20.1.tar.xz      100%[======================================>]   8.91M  3.17MB/s    in 2.8s
+
+2020-08-09 18:22:20 (3.17 MB/s) - ‘/mnt/lfs/sources/gettext-0.20.1.tar.xz’ saved [9346544/9346544]
+
+--2020-08-09 18:22:20--  http://ftp.gnu.org/gnu/glibc/glibc-2.31.tar.xz
+Reusing existing connection to ftp.gnu.org:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 16676764 (16M) [application/x-xz]
+Saving to: ‘/mnt/lfs/sources/glibc-2.31.tar.xz’
+
+glibc-2.31.tar.xz          100%[======================================>]  15.90M  3.16MB/s    in 5.2s
+
+2020-08-09 18:22:25 (3.04 MB/s) - ‘/mnt/lfs/sources/glibc-2.31.tar.xz’ saved [16676764/16676764]
+
+--2020-08-09 18:22:25--  http://ftp.gnu.org/gnu/gmp/gmp-6.2.0.tar.xz
+Reusing existing connection to ftp.gnu.org:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 2012444 (1.9M) [application/x-xz]
+Saving to: ‘/mnt/lfs/sources/gmp-6.2.0.tar.xz’
+
+gmp-6.2.0.tar.xz           100%[======================================>]   1.92M  3.09MB/s    in 0.6s
+
+2020-08-09 18:22:26 (3.09 MB/s) - ‘/mnt/lfs/sources/gmp-6.2.0.tar.xz’ saved [2012444/2012444]
+
+--2020-08-09 18:22:26--  http://ftp.gnu.org/gnu/gperf/gperf-3.1.tar.gz
+Reusing existing connection to ftp.gnu.org:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1215925 (1.2M) [application/x-gzip]
+Saving to: ‘/mnt/lfs/sources/gperf-3.1.tar.gz’
+
+gperf-3.1.tar.gz           100%[======================================>]   1.16M  2.51MB/s    in 0.5s
+
+2020-08-09 18:22:27 (2.51 MB/s) - ‘/mnt/lfs/sources/gperf-3.1.tar.gz’ saved [1215925/1215925]
+
+--2020-08-09 18:22:27--  http://ftp.gnu.org/gnu/grep/grep-3.4.tar.xz
+Reusing existing connection to ftp.gnu.org:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1555820 (1.5M) [application/x-xz]
+Saving to: ‘/mnt/lfs/sources/grep-3.4.tar.xz’
+
+grep-3.4.tar.xz            100%[======================================>]   1.48M  2.14MB/s    in 0.7s
+
+2020-08-09 18:22:28 (2.14 MB/s) - ‘/mnt/lfs/sources/grep-3.4.tar.xz’ saved [1555820/1555820]
+
+--2020-08-09 18:22:28--  http://ftp.gnu.org/gnu/groff/groff-1.22.4.tar.gz
+Reusing existing connection to ftp.gnu.org:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 4137480 (3.9M) [application/x-gzip]
+Saving to: ‘/mnt/lfs/sources/groff-1.22.4.tar.gz’
+
+groff-1.22.4.tar.gz        100%[======================================>]   3.95M  2.88MB/s    in 1.4s
+
+2020-08-09 18:22:30 (2.88 MB/s) - ‘/mnt/lfs/sources/groff-1.22.4.tar.gz’ saved [4137480/4137480]
+
+--2020-08-09 18:22:30--  https://ftp.gnu.org/gnu/grub/grub-2.04.tar.xz
+Connecting to ftp.gnu.org (ftp.gnu.org)|209.51.188.20|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 6393864 (6.1M) [application/x-xz]
+Saving to: ‘/mnt/lfs/sources/grub-2.04.tar.xz’
+
+grub-2.04.tar.xz           100%[======================================>]   6.10M  1.33MB/s    in 4.8s
+
+2020-08-09 18:22:35 (1.28 MB/s) - ‘/mnt/lfs/sources/grub-2.04.tar.xz’ saved [6393864/6393864]
+
+URL transformed to HTTPS due to an HSTS policy
+--2020-08-09 18:22:35--  https://ftp.gnu.org/gnu/gzip/gzip-1.10.tar.xz
+Reusing existing connection to ftp.gnu.org:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 775144 (757K) [application/x-xz]
+Saving to: ‘/mnt/lfs/sources/gzip-1.10.tar.xz’
+
+gzip-1.10.tar.xz           100%[======================================>] 756.98K  2.49MB/s    in 0.3s
+
+2020-08-09 18:22:36 (2.49 MB/s) - ‘/mnt/lfs/sources/gzip-1.10.tar.xz’ saved [775144/775144]
+
+--2020-08-09 18:22:36--  http://anduin.linuxfromscratch.org/LFS/iana-etc-2.30.tar.bz2
+Resolving anduin.linuxfromscratch.org (anduin.linuxfromscratch.org)... 45.33.5.237
+Connecting to anduin.linuxfromscratch.org (anduin.linuxfromscratch.org)|45.33.5.237|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 205618 (201K) [application/x-bzip2]
+Saving to: ‘/mnt/lfs/sources/iana-etc-2.30.tar.bz2’
+
+iana-etc-2.30.tar.bz2      100%[======================================>] 200.80K   234KB/s    in 0.9s
+
+2020-08-09 18:22:37 (234 KB/s) - ‘/mnt/lfs/sources/iana-etc-2.30.tar.bz2’ saved [205618/205618]
+
+URL transformed to HTTPS due to an HSTS policy
+--2020-08-09 18:22:37--  https://ftp.gnu.org/gnu/inetutils/inetutils-1.9.4.tar.xz
+Connecting to ftp.gnu.org (ftp.gnu.org)|209.51.188.20|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1364408 (1.3M) [application/x-xz]
+Saving to: ‘/mnt/lfs/sources/inetutils-1.9.4.tar.xz’
+
+inetutils-1.9.4.tar.xz     100%[======================================>]   1.30M   574KB/s    in 2.3s
+
+2020-08-09 18:22:40 (574 KB/s) - ‘/mnt/lfs/sources/inetutils-1.9.4.tar.xz’ saved [1364408/1364408]
+
+--2020-08-09 18:22:40--  https://launchpad.net/intltool/trunk/0.51.0/+download/intltool-0.51.0.tar.gz
+Resolving launchpad.net (launchpad.net)... 91.189.89.222, 91.189.89.223, 2001:67c:1560:8003::8004, ...
+Connecting to launchpad.net (launchpad.net)|91.189.89.222|:443... connected.
+HTTP request sent, awaiting response... 303 See Other
+Location: https://launchpadlibrarian.net/199705878/intltool-0.51.0.tar.gz [following]
+--2020-08-09 18:22:41--  https://launchpadlibrarian.net/199705878/intltool-0.51.0.tar.gz
+Resolving launchpadlibrarian.net (launchpadlibrarian.net)... 91.189.89.228, 91.189.89.229, 2001:67c:1560:8                                                              003::8008, ...
+Connecting to launchpadlibrarian.net (launchpadlibrarian.net)|91.189.89.228|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 162286 (158K) [application/x-tar]
+Saving to: ‘/mnt/lfs/sources/intltool-0.51.0.tar.gz’
+
+intltool-0.51.0.tar.gz     100%[======================================>] 158.48K   440KB/s    in 0.4s
+
+2020-08-09 18:22:42 (440 KB/s) - ‘/mnt/lfs/sources/intltool-0.51.0.tar.gz’ saved [162286/162286]
+
+--2020-08-09 18:22:42--  https://www.kernel.org/pub/linux/utils/net/iproute2/iproute2-5.5.0.tar.xz
+Resolving www.kernel.org (www.kernel.org)... 136.144.49.103, 2604:1380:40b0:1a00::1
+Connecting to www.kernel.org (www.kernel.org)|136.144.49.103|:443... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://mirrors.edge.kernel.org/pub/linux/utils/net/iproute2/iproute2-5.5.0.tar.xz [following]
+--2020-08-09 18:22:43--  https://mirrors.edge.kernel.org/pub/linux/utils/net/iproute2/iproute2-5.5.0.tar.x                                                              z
+Resolving mirrors.edge.kernel.org (mirrors.edge.kernel.org)... 147.75.101.1, 2604:1380:2001:3900::1
+Connecting to mirrors.edge.kernel.org (mirrors.edge.kernel.org)|147.75.101.1|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 747756 (730K) [application/x-xz]
+Saving to: ‘/mnt/lfs/sources/iproute2-5.5.0.tar.xz’
+
+iproute2-5.5.0.tar.xz      100%[======================================>] 730.23K  1.26MB/s    in 0.6s
+
+2020-08-09 18:22:44 (1.26 MB/s) - ‘/mnt/lfs/sources/iproute2-5.5.0.tar.xz’ saved [747756/747756]
+
+--2020-08-09 18:22:44--  https://www.kernel.org/pub/linux/utils/kbd/kbd-2.2.0.tar.xz
+Connecting to www.kernel.org (www.kernel.org)|136.144.49.103|:443... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://mirrors.edge.kernel.org/pub/linux/utils/kbd/kbd-2.2.0.tar.xz [following]
+--2020-08-09 18:22:45--  https://mirrors.edge.kernel.org/pub/linux/utils/kbd/kbd-2.2.0.tar.xz
+Connecting to mirrors.edge.kernel.org (mirrors.edge.kernel.org)|147.75.101.1|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1115220 (1.1M) [application/x-xz]
+Saving to: ‘/mnt/lfs/sources/kbd-2.2.0.tar.xz’
+
+kbd-2.2.0.tar.xz           100%[======================================>]   1.06M  1.24MB/s    in 0.9s
+
+2020-08-09 18:22:46 (1.24 MB/s) - ‘/mnt/lfs/sources/kbd-2.2.0.tar.xz’ saved [1115220/1115220]
+
+--2020-08-09 18:22:46--  https://www.kernel.org/pub/linux/utils/kernel/kmod/kmod-26.tar.xz
+Connecting to www.kernel.org (www.kernel.org)|136.144.49.103|:443... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://mirrors.edge.kernel.org/pub/linux/utils/kernel/kmod/kmod-26.tar.xz [following]
+--2020-08-09 18:22:46--  https://mirrors.edge.kernel.org/pub/linux/utils/kernel/kmod/kmod-26.tar.xz
+Connecting to mirrors.edge.kernel.org (mirrors.edge.kernel.org)|147.75.101.1|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 552032 (539K) [application/x-xz]
+Saving to: ‘/mnt/lfs/sources/kmod-26.tar.xz’
+
+kmod-26.tar.xz             100%[======================================>] 539.09K   902KB/s    in 0.6s
+
+2020-08-09 18:22:48 (902 KB/s) - ‘/mnt/lfs/sources/kmod-26.tar.xz’ saved [552032/552032]
+
+--2020-08-09 18:22:48--  http://www.greenwoodsoftware.com/less/less-551.tar.gz
+Resolving www.greenwoodsoftware.com (www.greenwoodsoftware.com)... 104.200.21.227
+Connecting to www.greenwoodsoftware.com (www.greenwoodsoftware.com)|104.200.21.227|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 347007 (339K) [application/x-gzip]
+Saving to: ‘/mnt/lfs/sources/less-551.tar.gz’
+
+less-551.tar.gz            100%[======================================>] 338.87K   342KB/s    in 1.0s
+
+2020-08-09 18:22:49 (342 KB/s) - ‘/mnt/lfs/sources/less-551.tar.gz’ saved [347007/347007]
+
+--2020-08-09 18:22:49--  http://www.linuxfromscratch.org/lfs/downloads/9.1/lfs-bootscripts-20191031.tar.xz
+Resolving www.linuxfromscratch.org (www.linuxfromscratch.org)... 192.155.86.174, 2600:3c01::f03c:91ff:fe70                                                              :25e8
+Connecting to www.linuxfromscratch.org (www.linuxfromscratch.org)|192.155.86.174|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 32396 (32K) [application/x-xz]
+Saving to: ‘/mnt/lfs/sources/lfs-bootscripts-20191031.tar.xz’
+
+lfs-bootscripts-20191031.t 100%[======================================>]  31.64K  90.5KB/s    in 0.3s
+
+2020-08-09 18:22:51 (90.5 KB/s) - ‘/mnt/lfs/sources/lfs-bootscripts-20191031.tar.xz’ saved [32396/32396]
+
+--2020-08-09 18:22:51--  https://www.kernel.org/pub/linux/libs/security/linux-privs/libcap2/libcap-2.31.ta                                                              r.xz
+Connecting to www.kernel.org (www.kernel.org)|136.144.49.103|:443... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://mirrors.edge.kernel.org/pub/linux/libs/security/linux-privs/libcap2/libcap-2.31.tar.xz [                                                              following]
+--2020-08-09 18:22:51--  https://mirrors.edge.kernel.org/pub/linux/libs/security/linux-privs/libcap2/libca                                                              p-2.31.tar.xz
+Connecting to mirrors.edge.kernel.org (mirrors.edge.kernel.org)|147.75.101.1|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 99236 (97K) [application/x-xz]
+Saving to: ‘/mnt/lfs/sources/libcap-2.31.tar.xz’
+
+libcap-2.31.tar.xz         100%[======================================>]  96.91K   513KB/s    in 0.2s
+
+2020-08-09 18:22:52 (513 KB/s) - ‘/mnt/lfs/sources/libcap-2.31.tar.xz’ saved [99236/99236]
+
+--2020-08-09 18:22:52--  ftp://sourceware.org/pub/libffi/libffi-3.3.tar.gz
+           => ‘/mnt/lfs/sources/libffi-3.3.tar.gz’
+Connecting to sourceware.org (sourceware.org)|8.43.85.97|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/libffi ... done.
+==> SIZE libffi-3.3.tar.gz ... 1305466
+==> PASV ... done.    ==> RETR libffi-3.3.tar.gz ... done.
+Length: 1305466 (1.2M) (unauthoritative)
+
+libffi-3.3.tar.gz          100%[======================================>]   1.24M   772KB/s    in 1.7s
+
+2020-08-09 18:22:56 (772 KB/s) - ‘/mnt/lfs/sources/libffi-3.3.tar.gz’ saved [1305466]
+
+--2020-08-09 18:22:56--  http://download.savannah.gnu.org/releases/libpipeline/libpipeline-1.5.2.tar.gz
+Connecting to download.savannah.gnu.org (download.savannah.gnu.org)|209.51.188.200|:80... connected.
+HTTP request sent, awaiting response... 302 Moved Temporarily
+Location: http://mirror.rackdc.com/savannah/libpipeline/libpipeline-1.5.2.tar.gz [following]
+--2020-08-09 18:22:56--  http://mirror.rackdc.com/savannah/libpipeline/libpipeline-1.5.2.tar.gz
+Connecting to mirror.rackdc.com (mirror.rackdc.com)|94.103.32.100|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 994071 (971K) [application/x-gzip]
+Saving to: ‘/mnt/lfs/sources/libpipeline-1.5.2.tar.gz’
+
+libpipeline-1.5.2.tar.gz   100%[======================================>] 970.77K   764KB/s    in 1.3s
+
+2020-08-09 18:22:58 (764 KB/s) - ‘/mnt/lfs/sources/libpipeline-1.5.2.tar.gz’ saved [994071/994071]
+
+URL transformed to HTTPS due to an HSTS policy
+--2020-08-09 18:22:58--  https://ftp.gnu.org/gnu/libtool/libtool-2.4.6.tar.xz
+Connecting to ftp.gnu.org (ftp.gnu.org)|209.51.188.20|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 973080 (950K) [application/x-xz]
+Saving to: ‘/mnt/lfs/sources/libtool-2.4.6.tar.xz’
+
+libtool-2.4.6.tar.xz                      100%[=====================================================================================>] 950.27K   779KB/s    in 1.2s
+
+2020-08-09 18:23:00 (779 KB/s) - ‘/mnt/lfs/sources/libtool-2.4.6.tar.xz’ saved [973080/973080]
+
+URL transformed to HTTPS due to an HSTS policy
+--2020-08-09 18:23:00--  https://ftp.gnu.org/gnu/m4/m4-1.4.18.tar.xz
+Reusing existing connection to ftp.gnu.org:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1207688 (1.2M) [application/x-xz]
+Saving to: ‘/mnt/lfs/sources/m4-1.4.18.tar.xz’
+
+m4-1.4.18.tar.xz                          100%[=====================================================================================>]   1.15M  2.75MB/s    in 0.4s
+
+2020-08-09 18:23:01 (2.75 MB/s) - ‘/mnt/lfs/sources/m4-1.4.18.tar.xz’ saved [1207688/1207688]
+
+URL transformed to HTTPS due to an HSTS policy
+--2020-08-09 18:23:01--  https://ftp.gnu.org/gnu/make/make-4.3.tar.gz
+Reusing existing connection to ftp.gnu.org:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 2317073 (2.2M) [application/x-gzip]
+Saving to: ‘/mnt/lfs/sources/make-4.3.tar.gz’
+
+make-4.3.tar.gz                           100%[=====================================================================================>]   2.21M  2.60MB/s    in 0.8s
+
+2020-08-09 18:23:02 (2.60 MB/s) - ‘/mnt/lfs/sources/make-4.3.tar.gz’ saved [2317073/2317073]
+
+--2020-08-09 18:23:02--  http://download.savannah.gnu.org/releases/man-db/man-db-2.9.0.tar.xz
+Connecting to download.savannah.gnu.org (download.savannah.gnu.org)|209.51.188.200|:80... connected.
+HTTP request sent, awaiting response... 302 Moved Temporarily
+Location: http://mirror.rackdc.com/savannah/man-db/man-db-2.9.0.tar.xz [following]
+--2020-08-09 18:23:02--  http://mirror.rackdc.com/savannah/man-db/man-db-2.9.0.tar.xz
+Connecting to mirror.rackdc.com (mirror.rackdc.com)|94.103.32.100|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1857216 (1.8M) [application/x-xz]
+Saving to: ‘/mnt/lfs/sources/man-db-2.9.0.tar.xz’
+
+man-db-2.9.0.tar.xz                       100%[=====================================================================================>]   1.77M   905KB/s    in 2.0s
+
+2020-08-09 18:23:05 (905 KB/s) - ‘/mnt/lfs/sources/man-db-2.9.0.tar.xz’ saved [1857216/1857216]
+
+--2020-08-09 18:23:05--  https://www.kernel.org/pub/linux/docs/man-pages/man-pages-5.05.tar.xz
+Connecting to www.kernel.org (www.kernel.org)|136.144.49.103|:443... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://mirrors.edge.kernel.org/pub/linux/docs/man-pages/man-pages-5.05.tar.xz [following]
+--2020-08-09 18:23:05--  https://mirrors.edge.kernel.org/pub/linux/docs/man-pages/man-pages-5.05.tar.xz
+Connecting to mirrors.edge.kernel.org (mirrors.edge.kernel.org)|147.75.101.1|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1687960 (1.6M) [application/x-xz]
+Saving to: ‘/mnt/lfs/sources/man-pages-5.05.tar.xz’
+
+man-pages-5.05.tar.xz                     100%[=====================================================================================>]   1.61M  2.09MB/s    in 0.8s
+
+2020-08-09 18:23:07 (2.09 MB/s) - ‘/mnt/lfs/sources/man-pages-5.05.tar.xz’ saved [1687960/1687960]
+
+--2020-08-09 18:23:07--  https://github.com/mesonbuild/meson/releases/download/0.53.1/meson-0.53.1.tar.gz
+Connecting to github.com (github.com)|140.82.118.3|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://github-production-release-asset-2e65be.s3.amazonaws.com/19784232/40db4980-3e45-11ea-9f7c-3ebd369527bd?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20200809%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20200809T182307Z&X-Amz-Expires=300&X-Amz-Signature=d7996815951b46483a4dd0ab73f95ca844fa7875c59fb7ad56d2443047b87828&X-Amz-SignedHeaders=host&actor_id=0&repo_id=19784232&response-content-disposition=attachment%3B%20filename%3Dmeson-0.53.1.tar.gz&response-content-type=application%2Foctet-stream [following]
+--2020-08-09 18:23:07--  https://github-production-release-asset-2e65be.s3.amazonaws.com/19784232/40db4980-3e45-11ea-9f7c-3ebd369527bd?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20200809%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20200809T182307Z&X-Amz-Expires=300&X-Amz-Signature=d7996815951b46483a4dd0ab73f95ca844fa7875c59fb7ad56d2443047b87828&X-Amz-SignedHeaders=host&actor_id=0&repo_id=19784232&response-content-disposition=attachment%3B%20filename%3Dmeson-0.53.1.tar.gz&response-content-type=application%2Foctet-stream
+Connecting to github-production-release-asset-2e65be.s3.amazonaws.com (github-production-release-asset-2e65be.s3.amazonaws.com)|52.216.82.136|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1552121 (1.5M) [application/octet-stream]
+Saving to: ‘/mnt/lfs/sources/meson-0.53.1.tar.gz’
+
+meson-0.53.1.tar.gz                       100%[=====================================================================================>]   1.48M   981KB/s    in 1.5s
+
+2020-08-09 18:23:10 (981 KB/s) - ‘/mnt/lfs/sources/meson-0.53.1.tar.gz’ saved [1552121/1552121]
+
+--2020-08-09 18:23:10--  https://ftp.gnu.org/gnu/mpc/mpc-1.1.0.tar.gz
+Connecting to ftp.gnu.org (ftp.gnu.org)|209.51.188.20|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 701263 (685K) [application/x-gzip]
+Saving to: ‘/mnt/lfs/sources/mpc-1.1.0.tar.gz’
+
+mpc-1.1.0.tar.gz                          100%[=====================================================================================>] 684.83K   246KB/s    in 2.8s
+
+2020-08-09 18:23:13 (246 KB/s) - ‘/mnt/lfs/sources/mpc-1.1.0.tar.gz’ saved [701263/701263]
+
+--2020-08-09 18:23:13--  http://www.mpfr.org/mpfr-4.0.2/mpfr-4.0.2.tar.xz
+Resolving www.mpfr.org (www.mpfr.org)... 152.81.144.153
+Connecting to www.mpfr.org (www.mpfr.org)|152.81.144.153|:80... failed: Connection timed out.
+Retrying.
+
+--2020-08-09 18:25:25--  (try: 2)  http://www.mpfr.org/mpfr-4.0.2/mpfr-4.0.2.tar.xz
+Connecting to www.mpfr.org (www.mpfr.org)|152.81.144.153|:80...
+
+
+
+^C
+orxan@ubuntuserver:~/GIT/Linux-From-Scratch/NecessaryPackages$ ls
+Links_for_download  md5sums  usage
+orxan@ubuntuserver:~/GIT/Linux-From-Scratch/NecessaryPackages$ ls -la
+total 28
+drwxrwxr-x 2 orxan orxan 4096 Aug  9 18:14 .
+drwxrwxr-x 5 orxan orxan 4096 Aug  9 18:08 ..
+-rw-rw-r-- 1 orxan orxan 5142 Aug  9 18:14 Links_for_download
+-rw-rw-r-- 1 orxan orxan 4591 Aug  9 18:08 md5sums
+-rw-rw-r-- 1 orxan orxan  303 Aug  9 18:08 usage
+orxan@ubuntuserver:~/GIT/Linux-From-Scratch/NecessaryPackages$ ls $LFS/sources
+acl-2.2.53.tar.gz       check-0.14.0.tar.gz      expect5.45.4.tar.gz     gperf-3.1.tar.gz        kbd-2.2.0.tar.xz                 make-4.3.tar.gz
+attr-2.4.48.tar.gz      coreutils-8.31.tar.xz    findutils-4.7.0.tar.xz  grep-3.4.tar.xz         kmod-26.tar.xz                   man-db-2.9.0.tar.xz
+autoconf-2.69.tar.xz    dbus-1.12.16.tar.gz      flex-2.6.4.tar.gz       groff-1.22.4.tar.gz     less-551.tar.gz                  man-pages-5.05.tar.xz
+automake-1.16.1.tar.xz  dejagnu-1.6.2.tar.gz     gawk-5.0.1.tar.xz       grub-2.04.tar.xz        lfs-bootscripts-20191031.tar.xz  md5sums
+bash-5.0.tar.gz         diffutils-3.7.tar.xz     gcc-9.2.0.tar.xz        gzip-1.10.tar.xz        libcap-2.31.tar.xz               meson-0.53.1.tar.gz
+bc-2.5.3.tar.gz         e2fsprogs-1.45.5.tar.gz  gdbm-1.18.1.tar.gz      iana-etc-2.30.tar.bz2   libffi-3.3.tar.gz                mpc-1.1.0.tar.gz
+binutils-2.34.tar.xz    elfutils-0.178.tar.bz2   gettext-0.20.1.tar.xz   inetutils-1.9.4.tar.xz  libpipeline-1.5.2.tar.gz
+bison-3.5.2.tar.xz      eudev-3.2.9.tar.gz       glibc-2.31.tar.xz       intltool-0.51.0.tar.gz  libtool-2.4.6.tar.xz
+bzip2-1.0.8.tar.gz      expat-2.2.9.tar.xz       gmp-6.2.0.tar.xz        iproute2-5.5.0.tar.xz   m4-1.4.18.tar.xz
+orxan@ubuntuserver:~/GIT/Linux-From-Scratch/NecessaryPackages$ vi Links_for_download
+orxan@ubuntuserver:~/GIT/Linux-From-Scratch/NecessaryPackages$ wget --input-file=Links_for_download --continue --directory-prefix=$LFS/sources
+--2020-08-09 18:28:16--  http://download.savannah.gnu.org/releases/acl/acl-2.2.53.tar.gz
+Resolving download.savannah.gnu.org (download.savannah.gnu.org)... 209.51.188.200, 2001:470:142:5::200
+Connecting to download.savannah.gnu.org (download.savannah.gnu.org)|209.51.188.200|:80... connected.
+HTTP request sent, awaiting response... 302 Moved Temporarily
+Location: http://mirror.rackdc.com/savannah/acl/acl-2.2.53.tar.gz [following]
+--2020-08-09 18:28:17--  http://mirror.rackdc.com/savannah/acl/acl-2.2.53.tar.gz
+Resolving mirror.rackdc.com (mirror.rackdc.com)... 94.103.32.100, 2a00:7300:1::100
+Connecting to mirror.rackdc.com (mirror.rackdc.com)|94.103.32.100|:80... connected.
+HTTP request sent, awaiting response... 416 Requested Range Not Satisfiable
+
+    The file is already fully retrieved; nothing to do.
+
+--2020-08-09 18:28:17--  http://download.savannah.gnu.org/releases/attr/attr-2.4.48.tar.gz
+Connecting to download.savannah.gnu.org (download.savannah.gnu.org)|209.51.188.200|:80... connected.
+HTTP request sent, awaiting response... 302 Moved Temporarily
+Location: http://mirror.rackdc.com/savannah/attr/attr-2.4.48.tar.gz [following]
+--2020-08-09 18:28:18--  http://mirror.rackdc.com/savannah/attr/attr-2.4.48.tar.gz
+Connecting to mirror.rackdc.com (mirror.rackdc.com)|94.103.32.100|:80... connected.
+HTTP request sent, awaiting response... 416 Requested Range Not Satisfiable
+
+    The file is already fully retrieved; nothing to do.
+
+--2020-08-09 18:28:18--  http://ftp.gnu.org/gnu/autoconf/autoconf-2.69.tar.xz
+Resolving ftp.gnu.org (ftp.gnu.org)... 209.51.188.20, 2001:470:142:3::b
+Connecting to ftp.gnu.org (ftp.gnu.org)|209.51.188.20|:80... connected.
+HTTP request sent, awaiting response... 416 Requested Range Not Satisfiable
+
+    The file is already fully retrieved; nothing to do.
+
+--2020-08-09 18:28:19--  http://ftp.gnu.org/gnu/automake/automake-1.16.1.tar.xz
+Reusing existing connection to ftp.gnu.org:80.
+HTTP request sent, awaiting response... 416 Requested Range Not Satisfiable
+
+    The file is already fully retrieved; nothing to do.
+
+--2020-08-09 18:28:19--  http://ftp.gnu.org/gnu/bash/bash-5.0.tar.gz
+Reusing existing connection to ftp.gnu.org:80.
+HTTP request sent, awaiting response... 416 Requested Range Not Satisfiable
+
+    The file is already fully retrieved; nothing to do.
+
+--2020-08-09 18:28:19--  https://github.com/gavinhoward/bc/archive/2.5.3/bc-2.5.3.tar.gz
+Resolving github.com (github.com)... 140.82.118.3
+Connecting to github.com (github.com)|140.82.118.3|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://codeload.github.com/gavinhoward/bc/tar.gz/2.5.3 [following]
+--2020-08-09 18:28:21--  https://codeload.github.com/gavinhoward/bc/tar.gz/2.5.3
+Resolving codeload.github.com (codeload.github.com)... 140.82.112.10
+Connecting to codeload.github.com (codeload.github.com)|140.82.112.10|:443... connected.
+HTTP request sent, awaiting response... 416 Requested Range Not Satisfiable
+
+    The file is already fully retrieved; nothing to do.
+
+--2020-08-09 18:28:22--  http://ftp.gnu.org/gnu/binutils/binutils-2.34.tar.xz
+Connecting to ftp.gnu.org (ftp.gnu.org)|209.51.188.20|:80... connected.
+HTTP request sent, awaiting response... 416 Requested Range Not Satisfiable
+
+    The file is already fully retrieved; nothing to do.
+
+--2020-08-09 18:28:23--  http://ftp.gnu.org/gnu/bison/bison-3.5.2.tar.xz
+Reusing existing connection to ftp.gnu.org:80.
+HTTP request sent, awaiting response... 416 Requested Range Not Satisfiable
+
+    The file is already fully retrieved; nothing to do.
+
+--2020-08-09 18:28:23--  https://www.sourceware.org/pub/bzip2/bzip2-1.0.8.tar.gz
+Resolving www.sourceware.org (www.sourceware.org)... 8.43.85.97, 2620:52:3:1:0:246e:9693:128c
+Connecting to www.sourceware.org (www.sourceware.org)|8.43.85.97|:443... connected.
+HTTP request sent, awaiting response... 416 Requested Range Not Satisfiable
+
+    The file is already fully retrieved; nothing to do.
+
+--2020-08-09 18:28:24--  https://github.com/libcheck/check/releases/download/0.14.0/check-0.14.0.tar.gz
+Connecting to github.com (github.com)|140.82.118.3|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://github-production-release-asset-2e65be.s3.amazonaws.com/48520045/5eb1d580-4022-11ea-9ec5-7d1c9972e386?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20200809%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20200809T182824Z&X-Amz-Expires=300&X-Amz-Signature=76c72ee60660ce953b65dc642f5b20fca56d15852c74721689a216be5be13f77&X-Amz-SignedHeaders=host&actor_id=0&repo_id=48520045&response-content-disposition=attachment%3B%20filename%3Dcheck-0.14.0.tar.gz&response-content-type=application%2Foctet-stream [following]
+--2020-08-09 18:28:24--  https://github-production-release-asset-2e65be.s3.amazonaws.com/48520045/5eb1d580-4022-11ea-9ec5-7d1c9972e386?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20200809%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20200809T182824Z&X-Amz-Expires=300&X-Amz-Signature=76c72ee60660ce953b65dc642f5b20fca56d15852c74721689a216be5be13f77&X-Amz-SignedHeaders=host&actor_id=0&repo_id=48520045&response-content-disposition=attachment%3B%20filename%3Dcheck-0.14.0.tar.gz&response-content-type=application%2Foctet-stream
+Resolving github-production-release-asset-2e65be.s3.amazonaws.com (github-production-release-asset-2e65be.s3.amazonaws.com)... 52.216.129.171
+Connecting to github-production-release-asset-2e65be.s3.amazonaws.com (github-production-release-asset-2e65be.s3.amazonaws.com)|52.216.129.171|:443... connected.
+HTTP request sent, awaiting response... 416 Requested Range Not Satisfiable
+
+    The file is already fully retrieved; nothing to do.
+
+--2020-08-09 18:28:31--  http://ftp.gnu.org/gnu/coreutils/coreutils-8.31.tar.xz
+Connecting to ftp.gnu.org (ftp.gnu.org)|209.51.188.20|:80... connected.
+HTTP request sent, awaiting response... 416 Requested Range Not Satisfiable
+
+    The file is already fully retrieved; nothing to do.
+
+--2020-08-09 18:28:31--  https://dbus.freedesktop.org/releases/dbus/dbus-1.12.16.tar.gz
+Resolving dbus.freedesktop.org (dbus.freedesktop.org)... 131.252.210.176, 2610:10:20:722:a800:ff:feda:470f
+Connecting to dbus.freedesktop.org (dbus.freedesktop.org)|131.252.210.176|:443... connected.
+HTTP request sent, awaiting response... 416 Requested Range Not Satisfiable
+
+    The file is already fully retrieved; nothing to do.
+
+--2020-08-09 18:28:32--  http://ftp.gnu.org/gnu/dejagnu/dejagnu-1.6.2.tar.gz
+Connecting to ftp.gnu.org (ftp.gnu.org)|209.51.188.20|:80... connected.
+HTTP request sent, awaiting response... 416 Requested Range Not Satisfiable
+
+    The file is already fully retrieved; nothing to do.
+
+--2020-08-09 18:28:33--  http://ftp.gnu.org/gnu/diffutils/diffutils-3.7.tar.xz
+Reusing existing connection to ftp.gnu.org:80.
+HTTP request sent, awaiting response... 416 Requested Range Not Satisfiable
+
+    The file is already fully retrieved; nothing to do.
+
+--2020-08-09 18:28:33--  https://downloads.sourceforge.net/project/e2fsprogs/e2fsprogs/v1.45.5/e2fsprogs-1.45.5.tar.gz
+Resolving downloads.sourceforge.net (downloads.sourceforge.net)... 216.105.38.13
+Connecting to downloads.sourceforge.net (downloads.sourceforge.net)|216.105.38.13|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://netix.dl.sourceforge.net/project/e2fsprogs/e2fsprogs/v1.45.5/e2fsprogs-1.45.5.tar.gz [following]
+--2020-08-09 18:28:34--  https://netix.dl.sourceforge.net/project/e2fsprogs/e2fsprogs/v1.45.5/e2fsprogs-1.45.5.tar.gz
+Resolving netix.dl.sourceforge.net (netix.dl.sourceforge.net)... 87.121.121.2
+Connecting to netix.dl.sourceforge.net (netix.dl.sourceforge.net)|87.121.121.2|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: http://downloads.sourceforge.net/mirrorproblem?failedmirror=netix.dl.sourceforge.net [following]
+--2020-08-09 18:28:35--  http://downloads.sourceforge.net/mirrorproblem?failedmirror=netix.dl.sourceforge.net
+Connecting to downloads.sourceforge.net (downloads.sourceforge.net)|216.105.38.13|:80... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://jztkft.dl.sourceforge.net/project/e2fsprogs/e2fsprogs/v1.45.5/e2fsprogs-1.45.5.tar.gz [following]
+--2020-08-09 18:28:35--  https://jztkft.dl.sourceforge.net/project/e2fsprogs/e2fsprogs/v1.45.5/e2fsprogs-1.45.5.tar.gz
+Resolving jztkft.dl.sourceforge.net (jztkft.dl.sourceforge.net)... 45.67.159.245
+Connecting to jztkft.dl.sourceforge.net (jztkft.dl.sourceforge.net)|45.67.159.245|:443... connected.
+HTTP request sent, awaiting response... 302 Moved Temporarily
+Location: http://downloads.sourceforge.net/mirrorproblem?failedmirror=jztkft.dl.sourceforge.net [following]
+--2020-08-09 18:28:36--  http://downloads.sourceforge.net/mirrorproblem?failedmirror=jztkft.dl.sourceforge.net
+Reusing existing connection to downloads.sourceforge.net:80.
+HTTP request sent, awaiting response... 302 Found
+Location: https://deac-riga.dl.sourceforge.net/project/e2fsprogs/e2fsprogs/v1.45.5/e2fsprogs-1.45.5.tar.gz [following]
+--2020-08-09 18:28:36--  https://deac-riga.dl.sourceforge.net/project/e2fsprogs/e2fsprogs/v1.45.5/e2fsprogs-1.45.5.tar.gz
+Resolving deac-riga.dl.sourceforge.net (deac-riga.dl.sourceforge.net)... 89.111.52.100
+Connecting to deac-riga.dl.sourceforge.net (deac-riga.dl.sourceforge.net)|89.111.52.100|:443... connected.
+HTTP request sent, awaiting response... 302 Moved Temporarily
+Location: http://downloads.sourceforge.net/mirrorproblem?failedmirror=deac-riga.dl.sourceforge.net [following]
+--2020-08-09 18:28:37--  http://downloads.sourceforge.net/mirrorproblem?failedmirror=deac-riga.dl.sourceforge.net
+Reusing existing connection to downloads.sourceforge.net:80.
+HTTP request sent, awaiting response... 302 Found
+Location: https://kumisystems.dl.sourceforge.net/project/e2fsprogs/e2fsprogs/v1.45.5/e2fsprogs-1.45.5.tar.gz [following]
+--2020-08-09 18:28:37--  https://kumisystems.dl.sourceforge.net/project/e2fsprogs/e2fsprogs/v1.45.5/e2fsprogs-1.45.5.tar.gz
+Resolving kumisystems.dl.sourceforge.net (kumisystems.dl.sourceforge.net)... 148.251.120.111, 2a01:4f8:210:1057::2
+Connecting to kumisystems.dl.sourceforge.net (kumisystems.dl.sourceforge.net)|148.251.120.111|:443... connected.
+HTTP request sent, awaiting response... 302 Moved Temporarily
+Location: https://downloads.sourceforge.net/project/e2fsprogs/e2fsprogs/v1.45.5/e2fsprogs-1.45.5.tar.gz?download&failedmirror=kumisystems.dl.sourceforge.net [following]
+--2020-08-09 18:28:38--  https://downloads.sourceforge.net/project/e2fsprogs/e2fsprogs/v1.45.5/e2fsprogs-1.45.5.tar.gz?download&failedmirror=kumisystems.dl.sourceforge.net
+Connecting to downloads.sourceforge.net (downloads.sourceforge.net)|216.105.38.13|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://netix.dl.sourceforge.net/project/e2fsprogs/e2fsprogs/v1.45.5/e2fsprogs-1.45.5.tar.gz [following]
+--2020-08-09 18:28:39--  https://netix.dl.sourceforge.net/project/e2fsprogs/e2fsprogs/v1.45.5/e2fsprogs-1.45.5.tar.gz
+Connecting to netix.dl.sourceforge.net (netix.dl.sourceforge.net)|87.121.121.2|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: http://downloads.sourceforge.net/mirrorproblem?failedmirror=netix.dl.sourceforge.net [following]
+--2020-08-09 18:28:39--  http://downloads.sourceforge.net/mirrorproblem?failedmirror=netix.dl.sourceforge.net
+Connecting to downloads.sourceforge.net (downloads.sourceforge.net)|216.105.38.13|:80... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://jztkft.dl.sourceforge.net/project/e2fsprogs/e2fsprogs/v1.45.5/e2fsprogs-1.45.5.tar.gz [following]
+--2020-08-09 18:28:40--  https://jztkft.dl.sourceforge.net/project/e2fsprogs/e2fsprogs/v1.45.5/e2fsprogs-1.45.5.tar.gz
+Connecting to jztkft.dl.sourceforge.net (jztkft.dl.sourceforge.net)|45.67.159.245|:443... connected.
+HTTP request sent, awaiting response... 302 Moved Temporarily
+Location: http://downloads.sourceforge.net/mirrorproblem?failedmirror=jztkft.dl.sourceforge.net [following]
+--2020-08-09 18:28:40--  http://downloads.sourceforge.net/mirrorproblem?failedmirror=jztkft.dl.sourceforge.net
+Reusing existing connection to downloads.sourceforge.net:80.
+HTTP request sent, awaiting response... 302 Found
+Location: https://deac-riga.dl.sourceforge.net/project/e2fsprogs/e2fsprogs/v1.45.5/e2fsprogs-1.45.5.tar.gz [following]
+--2020-08-09 18:28:40--  https://deac-riga.dl.sourceforge.net/project/e2fsprogs/e2fsprogs/v1.45.5/e2fsprogs-1.45.5.tar.gz
+Connecting to deac-riga.dl.sourceforge.net (deac-riga.dl.sourceforge.net)|89.111.52.100|:443... connected.
+HTTP request sent, awaiting response... 302 Moved Temporarily
+Location: http://downloads.sourceforge.net/mirrorproblem?failedmirror=deac-riga.dl.sourceforge.net [following]
+--2020-08-09 18:28:41--  http://downloads.sourceforge.net/mirrorproblem?failedmirror=deac-riga.dl.sourceforge.net
+Reusing existing connection to downloads.sourceforge.net:80.
+HTTP request sent, awaiting response... 302 Found
+Location: https://deac-ams.dl.sourceforge.net/project/e2fsprogs/e2fsprogs/v1.45.5/e2fsprogs-1.45.5.tar.gz [following]
+--2020-08-09 18:28:41--  https://deac-ams.dl.sourceforge.net/project/e2fsprogs/e2fsprogs/v1.45.5/e2fsprogs-1.45.5.tar.gz
+Resolving deac-ams.dl.sourceforge.net (deac-ams.dl.sourceforge.net)... 185.34.27.55
+Connecting to deac-ams.dl.sourceforge.net (deac-ams.dl.sourceforge.net)|185.34.27.55|:443... connected.
+HTTP request sent, awaiting response... 302 Moved Temporarily
+Location: http://downloads.sourceforge.net/mirrorproblem?failedmirror=deac-ams.dl.sourceforge.net [following]
+--2020-08-09 18:28:42--  http://downloads.sourceforge.net/mirrorproblem?failedmirror=deac-ams.dl.sourceforge.net
+Reusing existing connection to downloads.sourceforge.net:80.
+HTTP request sent, awaiting response... 302 Found
+Location: https://vorboss.dl.sourceforge.net/project/e2fsprogs/e2fsprogs/v1.45.5/e2fsprogs-1.45.5.tar.gz [following]
+--2020-08-09 18:28:42--  https://vorboss.dl.sourceforge.net/project/e2fsprogs/e2fsprogs/v1.45.5/e2fsprogs-1.45.5.tar.gz
+Resolving vorboss.dl.sourceforge.net (vorboss.dl.sourceforge.net)... 5.10.152.194
+Connecting to vorboss.dl.sourceforge.net (vorboss.dl.sourceforge.net)|5.10.152.194|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: http://downloads.sourceforge.net/mirrorproblem?failedmirror=vorboss.dl.sourceforge.net [following]
+--2020-08-09 18:29:27--  http://downloads.sourceforge.net/mirrorproblem?failedmirror=vorboss.dl.sourceforge.net
+Connecting to downloads.sourceforge.net (downloads.sourceforge.net)|216.105.38.13|:80... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://nchc.dl.sourceforge.net/project/e2fsprogs/e2fsprogs/v1.45.5/e2fsprogs-1.45.5.tar.gz [following]
+--2020-08-09 18:29:28--  https://nchc.dl.sourceforge.net/project/e2fsprogs/e2fsprogs/v1.45.5/e2fsprogs-1.45.5.tar.gz
+Resolving nchc.dl.sourceforge.net (nchc.dl.sourceforge.net)... 140.110.96.69, 2001:e10:ffff:1f02::17
+Connecting to nchc.dl.sourceforge.net (nchc.dl.sourceforge.net)|140.110.96.69|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: http://downloads.sourceforge.net/mirrorproblem?failedmirror=nchc.dl.sourceforge.net [following]
+--2020-08-09 18:29:30--  http://downloads.sourceforge.net/mirrorproblem?failedmirror=nchc.dl.sourceforge.net
+Reusing existing connection to downloads.sourceforge.net:80.
+HTTP request sent, awaiting response... 302 Found
+Location: https://jaist.dl.sourceforge.net/project/e2fsprogs/e2fsprogs/v1.45.5/e2fsprogs-1.45.5.tar.gz [following]
+20 redirections exceeded.
+--2020-08-09 18:29:31--  https://sourceware.org/ftp/elfutils/0.178/elfutils-0.178.tar.bz2
+Resolving sourceware.org (sourceware.org)... 8.43.85.97, 2620:52:3:1:0:246e:9693:128c
+Connecting to sourceware.org (sourceware.org)|8.43.85.97|:443... connected.
+HTTP request sent, awaiting response... 416 Requested Range Not Satisfiable
+
+    The file is already fully retrieved; nothing to do.
+
+--2020-08-09 18:29:31--  https://dev.gentoo.org/~blueness/eudev/eudev-3.2.9.tar.gz
+Resolving dev.gentoo.org (dev.gentoo.org)... 140.211.166.183, 2001:470:ea4a:1:5054:ff:fec7:86e4
+Connecting to dev.gentoo.org (dev.gentoo.org)|140.211.166.183|:443... connected.
+HTTP request sent, awaiting response... 416 Requested Range Not Satisfiable
+
+    The file is already fully retrieved; nothing to do.
+
+--2020-08-09 18:29:33--  https://prdownloads.sourceforge.net/expat/expat-2.2.9.tar.xz
+Resolving prdownloads.sourceforge.net (prdownloads.sourceforge.net)... 216.105.38.13
+Connecting to prdownloads.sourceforge.net (prdownloads.sourceforge.net)|216.105.38.13|:443... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://downloads.sourceforge.net/project/expat/expat/2.2.9/expat-2.2.9.tar.xz [following]
+--2020-08-09 18:29:34--  https://downloads.sourceforge.net/project/expat/expat/2.2.9/expat-2.2.9.tar.xz
+Connecting to downloads.sourceforge.net (downloads.sourceforge.net)|216.105.38.13|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://netix.dl.sourceforge.net/project/expat/expat/2.2.9/expat-2.2.9.tar.xz [following]
+--2020-08-09 18:29:36--  https://netix.dl.sourceforge.net/project/expat/expat/2.2.9/expat-2.2.9.tar.xz
+Connecting to netix.dl.sourceforge.net (netix.dl.sourceforge.net)|87.121.121.2|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: http://downloads.sourceforge.net/mirrorproblem?failedmirror=netix.dl.sourceforge.net [following]
+--2020-08-09 18:29:36--  http://downloads.sourceforge.net/mirrorproblem?failedmirror=netix.dl.sourceforge.net
+Connecting to downloads.sourceforge.net (downloads.sourceforge.net)|216.105.38.13|:80... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://jztkft.dl.sourceforge.net/project/expat/expat/2.2.9/expat-2.2.9.tar.xz [following]
+--2020-08-09 18:29:37--  https://jztkft.dl.sourceforge.net/project/expat/expat/2.2.9/expat-2.2.9.tar.xz
+Connecting to jztkft.dl.sourceforge.net (jztkft.dl.sourceforge.net)|45.67.159.245|:443... connected.
+HTTP request sent, awaiting response... 302 Moved Temporarily
+Location: http://downloads.sourceforge.net/mirrorproblem?failedmirror=jztkft.dl.sourceforge.net [following]
+--2020-08-09 18:29:37--  http://downloads.sourceforge.net/mirrorproblem?failedmirror=jztkft.dl.sourceforge.net
+Reusing existing connection to downloads.sourceforge.net:80.
+HTTP request sent, awaiting response... 302 Found
+Location: https://deac-riga.dl.sourceforge.net/project/expat/expat/2.2.9/expat-2.2.9.tar.xz [following]
+--2020-08-09 18:29:37--  https://deac-riga.dl.sourceforge.net/project/expat/expat/2.2.9/expat-2.2.9.tar.xz
+Connecting to deac-riga.dl.sourceforge.net (deac-riga.dl.sourceforge.net)|89.111.52.100|:443... connected.
+HTTP request sent, awaiting response... 302 Moved Temporarily
+Location: http://downloads.sourceforge.net/mirrorproblem?failedmirror=deac-riga.dl.sourceforge.net [following]
+--2020-08-09 18:29:38--  http://downloads.sourceforge.net/mirrorproblem?failedmirror=deac-riga.dl.sourceforge.net
+Reusing existing connection to downloads.sourceforge.net:80.
+HTTP request sent, awaiting response... 302 Found
+Location: https://kumisystems.dl.sourceforge.net/project/expat/expat/2.2.9/expat-2.2.9.tar.xz [following]
+--2020-08-09 18:29:38--  https://kumisystems.dl.sourceforge.net/project/expat/expat/2.2.9/expat-2.2.9.tar.xz
+Connecting to kumisystems.dl.sourceforge.net (kumisystems.dl.sourceforge.net)|148.251.120.111|:443... connected.
+HTTP request sent, awaiting response... 302 Moved Temporarily
+Location: https://downloads.sourceforge.net/project/expat/expat/2.2.9/expat-2.2.9.tar.xz?download&failedmirror=kumisystems.dl.sourceforge.net [following]
+--2020-08-09 18:29:39--  https://downloads.sourceforge.net/project/expat/expat/2.2.9/expat-2.2.9.tar.xz?download&failedmirror=kumisystems.dl.sourceforge.net
+Connecting to downloads.sourceforge.net (downloads.sourceforge.net)|216.105.38.13|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://netix.dl.sourceforge.net/project/expat/expat/2.2.9/expat-2.2.9.tar.xz [following]
+--2020-08-09 18:29:40--  https://netix.dl.sourceforge.net/project/expat/expat/2.2.9/expat-2.2.9.tar.xz
+Connecting to netix.dl.sourceforge.net (netix.dl.sourceforge.net)|87.121.121.2|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: http://downloads.sourceforge.net/mirrorproblem?failedmirror=netix.dl.sourceforge.net [following]
+--2020-08-09 18:29:40--  http://downloads.sourceforge.net/mirrorproblem?failedmirror=netix.dl.sourceforge.net
+Connecting to downloads.sourceforge.net (downloads.sourceforge.net)|216.105.38.13|:80... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://jztkft.dl.sourceforge.net/project/expat/expat/2.2.9/expat-2.2.9.tar.xz [following]
+--2020-08-09 18:29:41--  https://jztkft.dl.sourceforge.net/project/expat/expat/2.2.9/expat-2.2.9.tar.xz
+Connecting to jztkft.dl.sourceforge.net (jztkft.dl.sourceforge.net)|45.67.159.245|:443... connected.
+HTTP request sent, awaiting response... 302 Moved Temporarily
+Location: http://downloads.sourceforge.net/mirrorproblem?failedmirror=jztkft.dl.sourceforge.net [following]
+--2020-08-09 18:29:41--  http://downloads.sourceforge.net/mirrorproblem?failedmirror=jztkft.dl.sourceforge.net
+Reusing existing connection to downloads.sourceforge.net:80.
+HTTP request sent, awaiting response... 302 Found
+Location: https://deac-riga.dl.sourceforge.net/project/expat/expat/2.2.9/expat-2.2.9.tar.xz [following]
+--2020-08-09 18:29:41--  https://deac-riga.dl.sourceforge.net/project/expat/expat/2.2.9/expat-2.2.9.tar.xz
+Connecting to deac-riga.dl.sourceforge.net (deac-riga.dl.sourceforge.net)|89.111.52.100|:443... connected.
+HTTP request sent, awaiting response... 302 Moved Temporarily
+Location: http://downloads.sourceforge.net/mirrorproblem?failedmirror=deac-riga.dl.sourceforge.net [following]
+--2020-08-09 18:29:42--  http://downloads.sourceforge.net/mirrorproblem?failedmirror=deac-riga.dl.sourceforge.net
+Reusing existing connection to downloads.sourceforge.net:80.
+HTTP request sent, awaiting response... 302 Found
+Location: https://deac-ams.dl.sourceforge.net/project/expat/expat/2.2.9/expat-2.2.9.tar.xz [following]
+--2020-08-09 18:29:42--  https://deac-ams.dl.sourceforge.net/project/expat/expat/2.2.9/expat-2.2.9.tar.xz
+Connecting to deac-ams.dl.sourceforge.net (deac-ams.dl.sourceforge.net)|185.34.27.55|:443... connected.
+HTTP request sent, awaiting response... 302 Moved Temporarily
+Location: http://downloads.sourceforge.net/mirrorproblem?failedmirror=deac-ams.dl.sourceforge.net [following]
+--2020-08-09 18:29:43--  http://downloads.sourceforge.net/mirrorproblem?failedmirror=deac-ams.dl.sourceforge.net
+Reusing existing connection to downloads.sourceforge.net:80.
+HTTP request sent, awaiting response... 302 Found
+Location: https://vorboss.dl.sourceforge.net/project/expat/expat/2.2.9/expat-2.2.9.tar.xz [following]
+--2020-08-09 18:29:43--  https://vorboss.dl.sourceforge.net/project/expat/expat/2.2.9/expat-2.2.9.tar.xz
+Connecting to vorboss.dl.sourceforge.net (vorboss.dl.sourceforge.net)|5.10.152.194|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: http://downloads.sourceforge.net/mirrorproblem?failedmirror=vorboss.dl.sourceforge.net [following]
+--2020-08-09 18:30:18--  http://downloads.sourceforge.net/mirrorproblem?failedmirror=vorboss.dl.sourceforge.net
+Connecting to downloads.sourceforge.net (downloads.sourceforge.net)|216.105.38.13|:80... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://nchc.dl.sourceforge.net/project/expat/expat/2.2.9/expat-2.2.9.tar.xz [following]
+--2020-08-09 18:30:19--  https://nchc.dl.sourceforge.net/project/expat/expat/2.2.9/expat-2.2.9.tar.xz
+Connecting to nchc.dl.sourceforge.net (nchc.dl.sourceforge.net)|140.110.96.69|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: http://downloads.sourceforge.net/mirrorproblem?failedmirror=nchc.dl.sourceforge.net [following]
+20 redirections exceeded.
+--2020-08-09 18:30:21--  https://prdownloads.sourceforge.net/expect/expect5.45.4.tar.gz
+Connecting to prdownloads.sourceforge.net (prdownloads.sourceforge.net)|216.105.38.13|:443... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://downloads.sourceforge.net/project/expect/Expect/5.45.4/expect5.45.4.tar.gz [following]
+--2020-08-09 18:30:22--  https://downloads.sourceforge.net/project/expect/Expect/5.45.4/expect5.45.4.tar.gz
+Connecting to downloads.sourceforge.net (downloads.sourceforge.net)|216.105.38.13|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://netix.dl.sourceforge.net/project/expect/Expect/5.45.4/expect5.45.4.tar.gz [following]
+--2020-08-09 18:30:24--  https://netix.dl.sourceforge.net/project/expect/Expect/5.45.4/expect5.45.4.tar.gz
+Connecting to netix.dl.sourceforge.net (netix.dl.sourceforge.net)|87.121.121.2|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: http://downloads.sourceforge.net/mirrorproblem?failedmirror=netix.dl.sourceforge.net [following]
+--2020-08-09 18:30:24--  http://downloads.sourceforge.net/mirrorproblem?failedmirror=netix.dl.sourceforge.net
+Connecting to downloads.sourceforge.net (downloads.sourceforge.net)|216.105.38.13|:80... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://jztkft.dl.sourceforge.net/project/expect/Expect/5.45.4/expect5.45.4.tar.gz [following]
+--2020-08-09 18:30:25--  https://jztkft.dl.sourceforge.net/project/expect/Expect/5.45.4/expect5.45.4.tar.gz
+Connecting to jztkft.dl.sourceforge.net (jztkft.dl.sourceforge.net)|45.67.159.245|:443... connected.
+HTTP request sent, awaiting response... 302 Moved Temporarily
+Location: http://downloads.sourceforge.net/mirrorproblem?failedmirror=jztkft.dl.sourceforge.net [following]
+--2020-08-09 18:30:25--  http://downloads.sourceforge.net/mirrorproblem?failedmirror=jztkft.dl.sourceforge.net
+Reusing existing connection to downloads.sourceforge.net:80.
+HTTP request sent, awaiting response... 302 Found
+Location: https://deac-riga.dl.sourceforge.net/project/expect/Expect/5.45.4/expect5.45.4.tar.gz [following]
+--2020-08-09 18:30:25--  https://deac-riga.dl.sourceforge.net/project/expect/Expect/5.45.4/expect5.45.4.tar.gz
+Connecting to deac-riga.dl.sourceforge.net (deac-riga.dl.sourceforge.net)|89.111.52.100|:443... connected.
+HTTP request sent, awaiting response... 302 Moved Temporarily
+Location: http://downloads.sourceforge.net/mirrorproblem?failedmirror=deac-riga.dl.sourceforge.net [following]
+--2020-08-09 18:30:26--  http://downloads.sourceforge.net/mirrorproblem?failedmirror=deac-riga.dl.sourceforge.net
+Reusing existing connection to downloads.sourceforge.net:80.
+HTTP request sent, awaiting response... 302 Found
+Location: https://kumisystems.dl.sourceforge.net/project/expect/Expect/5.45.4/expect5.45.4.tar.gz [following]
+--2020-08-09 18:30:26--  https://kumisystems.dl.sourceforge.net/project/expect/Expect/5.45.4/expect5.45.4.tar.gz
+Connecting to kumisystems.dl.sourceforge.net (kumisystems.dl.sourceforge.net)|148.251.120.111|:443... connected.
+HTTP request sent, awaiting response... 302 Moved Temporarily
+Location: https://downloads.sourceforge.net/project/expect/Expect/5.45.4/expect5.45.4.tar.gz?download&failedmirror=kumisystems.dl.sourceforge.net [following]
+--2020-08-09 18:30:27--  https://downloads.sourceforge.net/project/expect/Expect/5.45.4/expect5.45.4.tar.gz?download&failedmirror=kumisystems.dl.sourceforge.net
+Connecting to downloads.sourceforge.net (downloads.sourceforge.net)|216.105.38.13|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://netix.dl.sourceforge.net/project/expect/Expect/5.45.4/expect5.45.4.tar.gz [following]
+--2020-08-09 18:30:28--  https://netix.dl.sourceforge.net/project/expect/Expect/5.45.4/expect5.45.4.tar.gz
+Connecting to netix.dl.sourceforge.net (netix.dl.sourceforge.net)|87.121.121.2|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: http://downloads.sourceforge.net/mirrorproblem?failedmirror=netix.dl.sourceforge.net [following]
+--2020-08-09 18:30:28--  http://downloads.sourceforge.net/mirrorproblem?failedmirror=netix.dl.sourceforge.net
+Connecting to downloads.sourceforge.net (downloads.sourceforge.net)|216.105.38.13|:80... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://jztkft.dl.sourceforge.net/project/expect/Expect/5.45.4/expect5.45.4.tar.gz [following]
+--2020-08-09 18:30:29--  https://jztkft.dl.sourceforge.net/project/expect/Expect/5.45.4/expect5.45.4.tar.gz
+Connecting to jztkft.dl.sourceforge.net (jztkft.dl.sourceforge.net)|45.67.159.245|:443... connected.
+HTTP request sent, awaiting response... 302 Moved Temporarily
+Location: http://downloads.sourceforge.net/mirrorproblem?failedmirror=jztkft.dl.sourceforge.net [following]
+--2020-08-09 18:30:29--  http://downloads.sourceforge.net/mirrorproblem?failedmirror=jztkft.dl.sourceforge.net
+Reusing existing connection to downloads.sourceforge.net:80.
+HTTP request sent, awaiting response... 302 Found
+Location: https://deac-riga.dl.sourceforge.net/project/expect/Expect/5.45.4/expect5.45.4.tar.gz [following]
+--2020-08-09 18:30:29--  https://deac-riga.dl.sourceforge.net/project/expect/Expect/5.45.4/expect5.45.4.tar.gz
+Connecting to deac-riga.dl.sourceforge.net (deac-riga.dl.sourceforge.net)|89.111.52.100|:443... connected.
+HTTP request sent, awaiting response... 302 Moved Temporarily
+Location: http://downloads.sourceforge.net/mirrorproblem?failedmirror=deac-riga.dl.sourceforge.net [following]
+--2020-08-09 18:30:30--  http://downloads.sourceforge.net/mirrorproblem?failedmirror=deac-riga.dl.sourceforge.net
+Reusing existing connection to downloads.sourceforge.net:80.
+HTTP request sent, awaiting response... 302 Found
+Location: https://deac-ams.dl.sourceforge.net/project/expect/Expect/5.45.4/expect5.45.4.tar.gz [following]
+--2020-08-09 18:30:30--  https://deac-ams.dl.sourceforge.net/project/expect/Expect/5.45.4/expect5.45.4.tar.gz
+Connecting to deac-ams.dl.sourceforge.net (deac-ams.dl.sourceforge.net)|185.34.27.55|:443... connected.
+HTTP request sent, awaiting response... 302 Moved Temporarily
+Location: http://downloads.sourceforge.net/mirrorproblem?failedmirror=deac-ams.dl.sourceforge.net [following]
+--2020-08-09 18:30:31--  http://downloads.sourceforge.net/mirrorproblem?failedmirror=deac-ams.dl.sourceforge.net
+Reusing existing connection to downloads.sourceforge.net:80.
+HTTP request sent, awaiting response... 302 Found
+Location: https://vorboss.dl.sourceforge.net/project/expect/Expect/5.45.4/expect5.45.4.tar.gz [following]
+--2020-08-09 18:30:31--  https://vorboss.dl.sourceforge.net/project/expect/Expect/5.45.4/expect5.45.4.tar.gz
+Connecting to vorboss.dl.sourceforge.net (vorboss.dl.sourceforge.net)|5.10.152.194|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: http://downloads.sourceforge.net/mirrorproblem?failedmirror=vorboss.dl.sourceforge.net [following]
+--2020-08-09 18:31:06--  http://downloads.sourceforge.net/mirrorproblem?failedmirror=vorboss.dl.sourceforge.net
+Connecting to downloads.sourceforge.net (downloads.sourceforge.net)|216.105.38.13|:80... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://nchc.dl.sourceforge.net/project/expect/Expect/5.45.4/expect5.45.4.tar.gz [following]
+--2020-08-09 18:31:07--  https://nchc.dl.sourceforge.net/project/expect/Expect/5.45.4/expect5.45.4.tar.gz
+Connecting to nchc.dl.sourceforge.net (nchc.dl.sourceforge.net)|140.110.96.69|:443... connected.
+HTTP request sent, awaiting response... 416 Requested Range Not Satisfiable
+
+    The file is already fully retrieved; nothing to do.
+
+--2020-08-09 18:31:09--  http://ftp.gnu.org/gnu/findutils/findutils-4.7.0.tar.xz
+Connecting to ftp.gnu.org (ftp.gnu.org)|209.51.188.20|:80... connected.
+HTTP request sent, awaiting response... 416 Requested Range Not Satisfiable
+
+    The file is already fully retrieved; nothing to do.
+
+--2020-08-09 18:31:09--  https://github.com/westes/flex/releases/download/v2.6.4/flex-2.6.4.tar.gz
+Connecting to github.com (github.com)|140.82.118.3|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://github-production-release-asset-2e65be.s3.amazonaws.com/14521001/23794388-327c-11e7-8219-c41432b94acf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20200809%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20200809T182948Z&X-Amz-Expires=300&X-Amz-Signature=d9696a9d8f08d78caf2b62ff5ac8e88975d0c00aca91d6424d00d792ca653633&X-Amz-SignedHeaders=host&actor_id=0&repo_id=14521001&response-content-disposition=attachment%3B%20filename%3Dflex-2.6.4.tar.gz&response-content-type=application%2Foctet-stream [following]
+--2020-08-09 18:31:10--  https://github-production-release-asset-2e65be.s3.amazonaws.com/14521001/23794388-327c-11e7-8219-c41432b94acf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20200809%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20200809T182948Z&X-Amz-Expires=300&X-Amz-Signature=d9696a9d8f08d78caf2b62ff5ac8e88975d0c00aca91d6424d00d792ca653633&X-Amz-SignedHeaders=host&actor_id=0&repo_id=14521001&response-content-disposition=attachment%3B%20filename%3Dflex-2.6.4.tar.gz&response-content-type=application%2Foctet-stream
+Connecting to github-production-release-asset-2e65be.s3.amazonaws.com (github-production-release-asset-2e65be.s3.amazonaws.com)|52.216.129.171|:443... connected.
+HTTP request sent, awaiting response... 416 Requested Range Not Satisfiable
+
+    The file is already fully retrieved; nothing to do.
+
+--2020-08-09 18:31:11--  http://ftp.gnu.org/gnu/gawk/gawk-5.0.1.tar.xz
+Connecting to ftp.gnu.org (ftp.gnu.org)|209.51.188.20|:80... connected.
+HTTP request sent, awaiting response... 416 Requested Range Not Satisfiable
+
+    The file is already fully retrieved; nothing to do.
+
+--2020-08-09 18:31:11--  http://ftp.gnu.org/gnu/gcc/gcc-9.2.0/gcc-9.2.0.tar.xz
+Reusing existing connection to ftp.gnu.org:80.
+HTTP request sent, awaiting response... 416 Requested Range Not Satisfiable
+
+    The file is already fully retrieved; nothing to do.
+
+--2020-08-09 18:31:11--  http://ftp.gnu.org/gnu/gdbm/gdbm-1.18.1.tar.gz
+Reusing existing connection to ftp.gnu.org:80.
+HTTP request sent, awaiting response... 416 Requested Range Not Satisfiable
+
+    The file is already fully retrieved; nothing to do.
+
+--2020-08-09 18:31:11--  http://ftp.gnu.org/gnu/gettext/gettext-0.20.1.tar.xz
+Reusing existing connection to ftp.gnu.org:80.
+HTTP request sent, awaiting response... 416 Requested Range Not Satisfiable
+
+    The file is already fully retrieved; nothing to do.
+
+--2020-08-09 18:31:12--  http://ftp.gnu.org/gnu/glibc/glibc-2.31.tar.xz
+Reusing existing connection to ftp.gnu.org:80.
+HTTP request sent, awaiting response... 416 Requested Range Not Satisfiable
+
+    The file is already fully retrieved; nothing to do.
+
+--2020-08-09 18:31:12--  http://ftp.gnu.org/gnu/gmp/gmp-6.2.0.tar.xz
+Reusing existing connection to ftp.gnu.org:80.
+HTTP request sent, awaiting response... 416 Requested Range Not Satisfiable
+
+    The file is already fully retrieved; nothing to do.
+
+--2020-08-09 18:31:12--  http://ftp.gnu.org/gnu/gperf/gperf-3.1.tar.gz
+Reusing existing connection to ftp.gnu.org:80.
+HTTP request sent, awaiting response... 416 Requested Range Not Satisfiable
+
+    The file is already fully retrieved; nothing to do.
+
+--2020-08-09 18:31:12--  http://ftp.gnu.org/gnu/grep/grep-3.4.tar.xz
+Reusing existing connection to ftp.gnu.org:80.
+HTTP request sent, awaiting response... 416 Requested Range Not Satisfiable
+
+    The file is already fully retrieved; nothing to do.
+
+--2020-08-09 18:31:12--  http://ftp.gnu.org/gnu/groff/groff-1.22.4.tar.gz
+Reusing existing connection to ftp.gnu.org:80.
+HTTP request sent, awaiting response... 416 Requested Range Not Satisfiable
+
+    The file is already fully retrieved; nothing to do.
+
+--2020-08-09 18:31:13--  https://ftp.gnu.org/gnu/grub/grub-2.04.tar.xz
+Connecting to ftp.gnu.org (ftp.gnu.org)|209.51.188.20|:443... connected.
+HTTP request sent, awaiting response... 416 Requested Range Not Satisfiable
+
+    The file is already fully retrieved; nothing to do.
+
+URL transformed to HTTPS due to an HSTS policy
+--2020-08-09 18:31:14--  https://ftp.gnu.org/gnu/gzip/gzip-1.10.tar.xz
+Reusing existing connection to ftp.gnu.org:443.
+HTTP request sent, awaiting response... 416 Requested Range Not Satisfiable
+
+    The file is already fully retrieved; nothing to do.
+
+--2020-08-09 18:31:14--  http://anduin.linuxfromscratch.org/LFS/iana-etc-2.30.tar.bz2
+Resolving anduin.linuxfromscratch.org (anduin.linuxfromscratch.org)... 45.33.5.237
+Connecting to anduin.linuxfromscratch.org (anduin.linuxfromscratch.org)|45.33.5.237|:80... connected.
+HTTP request sent, awaiting response... 416 Requested Range Not Satisfiable
+
+    The file is already fully retrieved; nothing to do.
+
+URL transformed to HTTPS due to an HSTS policy
+--2020-08-09 18:31:14--  https://ftp.gnu.org/gnu/inetutils/inetutils-1.9.4.tar.xz
+Connecting to ftp.gnu.org (ftp.gnu.org)|209.51.188.20|:443... connected.
+HTTP request sent, awaiting response... 416 Requested Range Not Satisfiable
+
+    The file is already fully retrieved; nothing to do.
+
+--2020-08-09 18:31:15--  https://launchpad.net/intltool/trunk/0.51.0/+download/intltool-0.51.0.tar.gz
+Resolving launchpad.net (launchpad.net)... 91.189.89.222, 91.189.89.223, 2001:67c:1560:8003::8004, ...
+Connecting to launchpad.net (launchpad.net)|91.189.89.222|:443... connected.
+HTTP request sent, awaiting response... 303 See Other
+Location: https://launchpadlibrarian.net/199705878/intltool-0.51.0.tar.gz [following]
+--2020-08-09 18:31:16--  https://launchpadlibrarian.net/199705878/intltool-0.51.0.tar.gz
+Resolving launchpadlibrarian.net (launchpadlibrarian.net)... 91.189.89.229, 91.189.89.228, 2001:67c:1560:8003::8007, ...
+Connecting to launchpadlibrarian.net (launchpadlibrarian.net)|91.189.89.229|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+
+    The file is already fully retrieved; nothing to do.
+
+--2020-08-09 18:31:17--  https://www.kernel.org/pub/linux/utils/net/iproute2/iproute2-5.5.0.tar.xz
+Resolving www.kernel.org (www.kernel.org)... 136.144.49.103, 2604:1380:40b0:1a00::1
+Connecting to www.kernel.org (www.kernel.org)|136.144.49.103|:443... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://mirrors.edge.kernel.org/pub/linux/utils/net/iproute2/iproute2-5.5.0.tar.xz [following]
+--2020-08-09 18:31:17--  https://mirrors.edge.kernel.org/pub/linux/utils/net/iproute2/iproute2-5.5.0.tar.xz
+Resolving mirrors.edge.kernel.org (mirrors.edge.kernel.org)... 147.75.101.1, 2604:1380:2001:3900::1
+Connecting to mirrors.edge.kernel.org (mirrors.edge.kernel.org)|147.75.101.1|:443... connected.
+HTTP request sent, awaiting response... 416 Requested Range Not Satisfiable
+
+    The file is already fully retrieved; nothing to do.
+
+--2020-08-09 18:31:18--  https://www.kernel.org/pub/linux/utils/kbd/kbd-2.2.0.tar.xz
+Connecting to www.kernel.org (www.kernel.org)|136.144.49.103|:443... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://mirrors.edge.kernel.org/pub/linux/utils/kbd/kbd-2.2.0.tar.xz [following]
+--2020-08-09 18:31:19--  https://mirrors.edge.kernel.org/pub/linux/utils/kbd/kbd-2.2.0.tar.xz
+Connecting to mirrors.edge.kernel.org (mirrors.edge.kernel.org)|147.75.101.1|:443... connected.
+HTTP request sent, awaiting response... 416 Requested Range Not Satisfiable
+
+    The file is already fully retrieved; nothing to do.
+
+--2020-08-09 18:31:19--  https://www.kernel.org/pub/linux/utils/kernel/kmod/kmod-26.tar.xz
+Connecting to www.kernel.org (www.kernel.org)|136.144.49.103|:443... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://mirrors.edge.kernel.org/pub/linux/utils/kernel/kmod/kmod-26.tar.xz [following]
+--2020-08-09 18:31:20--  https://mirrors.edge.kernel.org/pub/linux/utils/kernel/kmod/kmod-26.tar.xz
+Connecting to mirrors.edge.kernel.org (mirrors.edge.kernel.org)|147.75.101.1|:443... connected.
+HTTP request sent, awaiting response... 416 Requested Range Not Satisfiable
+
+    The file is already fully retrieved; nothing to do.
+
+--2020-08-09 18:31:20--  http://www.greenwoodsoftware.com/less/less-551.tar.gz
+Resolving www.greenwoodsoftware.com (www.greenwoodsoftware.com)... 104.200.21.227
+Connecting to www.greenwoodsoftware.com (www.greenwoodsoftware.com)|104.200.21.227|:80... connected.
+HTTP request sent, awaiting response... 416 Requested Range Not Satisfiable
+
+    The file is already fully retrieved; nothing to do.
+
+--2020-08-09 18:31:21--  http://www.linuxfromscratch.org/lfs/downloads/9.1/lfs-bootscripts-20191031.tar.xz
+Resolving www.linuxfromscratch.org (www.linuxfromscratch.org)... 192.155.86.174, 2600:3c01::f03c:91ff:fe70:25e8
+Connecting to www.linuxfromscratch.org (www.linuxfromscratch.org)|192.155.86.174|:80... connected.
+HTTP request sent, awaiting response... 416 Requested Range Not Satisfiable
+
+    The file is already fully retrieved; nothing to do.
+
+--2020-08-09 18:31:21--  https://www.kernel.org/pub/linux/libs/security/linux-privs/libcap2/libcap-2.31.tar.xz
+Connecting to www.kernel.org (www.kernel.org)|136.144.49.103|:443... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://mirrors.edge.kernel.org/pub/linux/libs/security/linux-privs/libcap2/libcap-2.31.tar.xz [following]
+--2020-08-09 18:31:22--  https://mirrors.edge.kernel.org/pub/linux/libs/security/linux-privs/libcap2/libcap-2.31.tar.xz
+Connecting to mirrors.edge.kernel.org (mirrors.edge.kernel.org)|147.75.101.1|:443... connected.
+HTTP request sent, awaiting response... 416 Requested Range Not Satisfiable
+
+    The file is already fully retrieved; nothing to do.
+
+--2020-08-09 18:31:22--  ftp://sourceware.org/pub/libffi/libffi-3.3.tar.gz
+           => ‘/mnt/lfs/sources/libffi-3.3.tar.gz’
+Connecting to sourceware.org (sourceware.org)|8.43.85.97|:21... connected.
+Logging in as anonymous ... Logged in!
+==> SYST ... done.    ==> PWD ... done.
+==> TYPE I ... done.  ==> CWD (1) /pub/libffi ... done.
+==> SIZE libffi-3.3.tar.gz ... 1305466
+File has already been retrieved.
+2020-08-09 18:31:24 (0.00 B/s) - ‘/mnt/lfs/sources/libffi-3.3.tar.gz’ saved [1305466]
+
+--2020-08-09 18:31:24--  http://download.savannah.gnu.org/releases/libpipeline/libpipeline-1.5.2.tar.gz
+Connecting to download.savannah.gnu.org (download.savannah.gnu.org)|209.51.188.200|:80... connected.
+HTTP request sent, awaiting response... 302 Moved Temporarily
+Location: http://mirror.rackdc.com/savannah/libpipeline/libpipeline-1.5.2.tar.gz [following]
+--2020-08-09 18:31:24--  http://mirror.rackdc.com/savannah/libpipeline/libpipeline-1.5.2.tar.gz
+Connecting to mirror.rackdc.com (mirror.rackdc.com)|94.103.32.100|:80... connected.
+HTTP request sent, awaiting response... 416 Requested Range Not Satisfiable
+
+    The file is already fully retrieved; nothing to do.
+
+URL transformed to HTTPS due to an HSTS policy
+--2020-08-09 18:31:25--  https://ftp.gnu.org/gnu/libtool/libtool-2.4.6.tar.xz
+Connecting to ftp.gnu.org (ftp.gnu.org)|209.51.188.20|:443... connected.
+HTTP request sent, awaiting response... 416 Requested Range Not Satisfiable
+
+    The file is already fully retrieved; nothing to do.
+
+URL transformed to HTTPS due to an HSTS policy
+--2020-08-09 18:31:26--  https://ftp.gnu.org/gnu/m4/m4-1.4.18.tar.xz
+Reusing existing connection to ftp.gnu.org:443.
+HTTP request sent, awaiting response... 416 Requested Range Not Satisfiable
+
+    The file is already fully retrieved; nothing to do.
+
+URL transformed to HTTPS due to an HSTS policy
+--2020-08-09 18:31:26--  https://ftp.gnu.org/gnu/make/make-4.3.tar.gz
+Reusing existing connection to ftp.gnu.org:443.
+HTTP request sent, awaiting response... 416 Requested Range Not Satisfiable
+
+    The file is already fully retrieved; nothing to do.
+
+--2020-08-09 18:31:26--  http://download.savannah.gnu.org/releases/man-db/man-db-2.9.0.tar.xz
+Connecting to download.savannah.gnu.org (download.savannah.gnu.org)|209.51.188.200|:80... connected.
+HTTP request sent, awaiting response... 302 Moved Temporarily
+Location: http://mirror.rackdc.com/savannah/man-db/man-db-2.9.0.tar.xz [following]
+--2020-08-09 18:31:27--  http://mirror.rackdc.com/savannah/man-db/man-db-2.9.0.tar.xz
+Connecting to mirror.rackdc.com (mirror.rackdc.com)|94.103.32.100|:80... connected.
+HTTP request sent, awaiting response... 416 Requested Range Not Satisfiable
+
+    The file is already fully retrieved; nothing to do.
+
+--2020-08-09 18:31:27--  https://www.kernel.org/pub/linux/docs/man-pages/man-pages-5.05.tar.xz
+Connecting to www.kernel.org (www.kernel.org)|136.144.49.103|:443... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://mirrors.edge.kernel.org/pub/linux/docs/man-pages/man-pages-5.05.tar.xz [following]
+--2020-08-09 18:31:27--  https://mirrors.edge.kernel.org/pub/linux/docs/man-pages/man-pages-5.05.tar.xz
+Connecting to mirrors.edge.kernel.org (mirrors.edge.kernel.org)|147.75.101.1|:443... connected.
+HTTP request sent, awaiting response... 416 Requested Range Not Satisfiable
+
+    The file is already fully retrieved; nothing to do.
+
+--2020-08-09 18:31:28--  https://github.com/mesonbuild/meson/releases/download/0.53.1/meson-0.53.1.tar.gz
+Connecting to github.com (github.com)|140.82.118.3|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://github-production-release-asset-2e65be.s3.amazonaws.com/19784232/40db4980-3e45-11ea-9f7c-3ebd369527bd?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20200809%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20200809T183128Z&X-Amz-Expires=300&X-Amz-Signature=f3468c5adff8b5930164366cf77e00656ef4f18090d49221ca9d4295154b7c97&X-Amz-SignedHeaders=host&actor_id=0&repo_id=19784232&response-content-disposition=attachment%3B%20filename%3Dmeson-0.53.1.tar.gz&response-content-type=application%2Foctet-stream [following]
+--2020-08-09 18:31:28--  https://github-production-release-asset-2e65be.s3.amazonaws.com/19784232/40db4980-3e45-11ea-9f7c-3ebd369527bd?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20200809%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20200809T183128Z&X-Amz-Expires=300&X-Amz-Signature=f3468c5adff8b5930164366cf77e00656ef4f18090d49221ca9d4295154b7c97&X-Amz-SignedHeaders=host&actor_id=0&repo_id=19784232&response-content-disposition=attachment%3B%20filename%3Dmeson-0.53.1.tar.gz&response-content-type=application%2Foctet-stream
+Connecting to github-production-release-asset-2e65be.s3.amazonaws.com (github-production-release-asset-2e65be.s3.amazonaws.com)|52.216.129.171|:443... connected.
+HTTP request sent, awaiting response... 416 Requested Range Not Satisfiable
+
+    The file is already fully retrieved; nothing to do.
+
+--2020-08-09 18:31:29--  https://ftp.gnu.org/gnu/mpc/mpc-1.1.0.tar.gz
+Connecting to ftp.gnu.org (ftp.gnu.org)|209.51.188.20|:443... connected.
+HTTP request sent, awaiting response... 416 Requested Range Not Satisfiable
+
+    The file is already fully retrieved; nothing to do.
+
+--2020-08-09 18:31:30--  https://github.com/ninja-build/ninja/archive/v1.10.0/ninja-1.10.0.tar.gz
+Connecting to github.com (github.com)|140.82.118.3|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://codeload.github.com/ninja-build/ninja/tar.gz/v1.10.0 [following]
+--2020-08-09 18:31:31--  https://codeload.github.com/ninja-build/ninja/tar.gz/v1.10.0
+Connecting to codeload.github.com (codeload.github.com)|140.82.112.10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/x-gzip]
+Saving to: ‘/mnt/lfs/sources/ninja-1.10.0.tar.gz’
+
+ninja-1.10.0.tar.gz                           [   <=>                                                                                ] 205.38K   326KB/s    in 0.6s
+
+2020-08-09 18:31:32 (326 KB/s) - ‘/mnt/lfs/sources/ninja-1.10.0.tar.gz’ saved [210313]
+
+URL transformed to HTTPS due to an HSTS policy
+--2020-08-09 18:31:32--  https://ftp.gnu.org/gnu/ncurses/ncurses-6.2.tar.gz
+Connecting to ftp.gnu.org (ftp.gnu.org)|209.51.188.20|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 3425862 (3.3M) [application/x-gzip]
+Saving to: ‘/mnt/lfs/sources/ncurses-6.2.tar.gz’
+
+ncurses-6.2.tar.gz                        100%[=====================================================================================>]   3.27M  1.45MB/s    in 2.3s
+
+2020-08-09 18:31:36 (1.45 MB/s) - ‘/mnt/lfs/sources/ncurses-6.2.tar.gz’ saved [3425862/3425862]
+
+--2020-08-09 18:31:36--  https://www.openssl.org/source/openssl-1.1.1d.tar.gz
+Resolving www.openssl.org (www.openssl.org)... 2.19.114.236, 2600:1417:7a:28d::c1e, 2600:1417:7a:297::c1e
+Connecting to www.openssl.org (www.openssl.org)|2.19.114.236|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 8845861 (8.4M) [application/x-gzip]
+Saving to: ‘/mnt/lfs/sources/openssl-1.1.1d.tar.gz’
+
+openssl-1.1.1d.tar.gz                     100%[=====================================================================================>]   8.44M  2.21MB/s    in 4.1s
+
+2020-08-09 18:31:41 (2.05 MB/s) - ‘/mnt/lfs/sources/openssl-1.1.1d.tar.gz’ saved [8845861/8845861]
+
+URL transformed to HTTPS due to an HSTS policy
+--2020-08-09 18:31:41--  https://ftp.gnu.org/gnu/patch/patch-2.7.6.tar.xz
+Connecting to ftp.gnu.org (ftp.gnu.org)|209.51.188.20|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 783756 (765K) [application/x-xz]
+Saving to: ‘/mnt/lfs/sources/patch-2.7.6.tar.xz’
+
+patch-2.7.6.tar.xz                        100%[=====================================================================================>] 765.39K   634KB/s    in 1.2s
+
+2020-08-09 18:31:43 (634 KB/s) - ‘/mnt/lfs/sources/patch-2.7.6.tar.xz’ saved [783756/783756]
+
+--2020-08-09 18:31:43--  https://www.cpan.org/src/5.0/perl-5.30.1.tar.xz
+Resolving www.cpan.org (www.cpan.org)... 151.101.14.217, 2a04:4e42:3::729
+Connecting to www.cpan.org (www.cpan.org)|151.101.14.217|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 12367844 (12M) [application/x-xz]
+Saving to: ‘/mnt/lfs/sources/perl-5.30.1.tar.xz’
+
+perl-5.30.1.tar.xz                        100%[=====================================================================================>]  11.79M  2.68MB/s    in 4.9s
+
+2020-08-09 18:31:49 (2.42 MB/s) - ‘/mnt/lfs/sources/perl-5.30.1.tar.xz’ saved [12367844/12367844]
+
+--2020-08-09 18:31:49--  https://pkg-config.freedesktop.org/releases/pkg-config-0.29.2.tar.gz
+Resolving pkg-config.freedesktop.org (pkg-config.freedesktop.org)... 131.252.210.176, 2610:10:20:722:a800:ff:feda:470f
+Connecting to pkg-config.freedesktop.org (pkg-config.freedesktop.org)|131.252.210.176|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 2016830 (1.9M) [application/x-gzip]
+Saving to: ‘/mnt/lfs/sources/pkg-config-0.29.2.tar.gz’
+
+pkg-config-0.29.2.tar.gz                  100%[=====================================================================================>]   1.92M  1.03MB/s    in 1.9s
+
+2020-08-09 18:31:52 (1.03 MB/s) - ‘/mnt/lfs/sources/pkg-config-0.29.2.tar.gz’ saved [2016830/2016830]
+
+--2020-08-09 18:31:52--  https://sourceforge.net/projects/procps-ng/files/Production/procps-ng-3.3.15.tar.xz
+Resolving sourceforge.net (sourceforge.net)... 216.105.38.13
+Connecting to sourceforge.net (sourceforge.net)|216.105.38.13|:443... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://sourceforge.net/projects/procps-ng/files/Production/procps-ng-3.3.15.tar.xz/ [following]
+--2020-08-09 18:31:54--  https://sourceforge.net/projects/procps-ng/files/Production/procps-ng-3.3.15.tar.xz/
+Reusing existing connection to sourceforge.net:443.
+HTTP request sent, awaiting response... 302 Found
+Location: https://sourceforge.net/projects/procps-ng/files/Production/procps-ng-3.3.15.tar.xz/download [following]
+--2020-08-09 18:31:54--  https://sourceforge.net/projects/procps-ng/files/Production/procps-ng-3.3.15.tar.xz/download
+Connecting to sourceforge.net (sourceforge.net)|216.105.38.13|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://downloads.sourceforge.net/project/procps-ng/Production/procps-ng-3.3.15.tar.xz?r=&ts=1596997915&use_mirror=netix [following]
+--2020-08-09 18:31:56--  https://downloads.sourceforge.net/project/procps-ng/Production/procps-ng-3.3.15.tar.xz?r=&ts=1596997915&use_mirror=netix
+Connecting to downloads.sourceforge.net (downloads.sourceforge.net)|216.105.38.13|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://netix.dl.sourceforge.net/project/procps-ng/Production/procps-ng-3.3.15.tar.xz [following]
+--2020-08-09 18:31:57--  https://netix.dl.sourceforge.net/project/procps-ng/Production/procps-ng-3.3.15.tar.xz
+Connecting to netix.dl.sourceforge.net (netix.dl.sourceforge.net)|87.121.121.2|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 904416 (883K) [application/octet-stream]
+Saving to: ‘/mnt/lfs/sources/procps-ng-3.3.15.tar.xz’
+
+procps-ng-3.3.15.tar.xz                   100%[=====================================================================================>] 883.22K  1.00MB/s    in 0.9s
+
+2020-08-09 18:31:58 (1.00 MB/s) - ‘/mnt/lfs/sources/procps-ng-3.3.15.tar.xz’ saved [904416/904416]
+
+--2020-08-09 18:31:58--  https://sourceforge.net/projects/psmisc/files/psmisc/psmisc-23.2.tar.xz
+Connecting to sourceforge.net (sourceforge.net)|216.105.38.13|:443... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://sourceforge.net/projects/psmisc/files/psmisc/psmisc-23.2.tar.xz/ [following]
+--2020-08-09 18:32:00--  https://sourceforge.net/projects/psmisc/files/psmisc/psmisc-23.2.tar.xz/
+Connecting to sourceforge.net (sourceforge.net)|216.105.38.13|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://sourceforge.net/projects/psmisc/files/psmisc/psmisc-23.2.tar.xz/download [following]
+--2020-08-09 18:32:01--  https://sourceforge.net/projects/psmisc/files/psmisc/psmisc-23.2.tar.xz/download
+Connecting to sourceforge.net (sourceforge.net)|216.105.38.13|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://downloads.sourceforge.net/project/psmisc/psmisc/psmisc-23.2.tar.xz?r=&ts=1596997922&use_mirror=netix [following]
+--2020-08-09 18:32:02--  https://downloads.sourceforge.net/project/psmisc/psmisc/psmisc-23.2.tar.xz?r=&ts=1596997922&use_mirror=netix
+Connecting to downloads.sourceforge.net (downloads.sourceforge.net)|216.105.38.13|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://netix.dl.sourceforge.net/project/psmisc/psmisc/psmisc-23.2.tar.xz [following]
+--2020-08-09 18:32:03--  https://netix.dl.sourceforge.net/project/psmisc/psmisc/psmisc-23.2.tar.xz
+Connecting to netix.dl.sourceforge.net (netix.dl.sourceforge.net)|87.121.121.2|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 303820 (297K) [application/octet-stream]
+Saving to: ‘/mnt/lfs/sources/psmisc-23.2.tar.xz’
+
+psmisc-23.2.tar.xz                        100%[=====================================================================================>] 296.70K   712KB/s    in 0.4s
+
+2020-08-09 18:32:04 (712 KB/s) - ‘/mnt/lfs/sources/psmisc-23.2.tar.xz’ saved [303820/303820]
+
+--2020-08-09 18:32:04--  https://www.python.org/ftp/python/3.8.1/Python-3.8.1.tar.xz
+Resolving www.python.org (www.python.org)... 151.101.12.223, 2a04:4e42:3::223
+Connecting to www.python.org (www.python.org)|151.101.12.223|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 17828408 (17M) [application/octet-stream]
+Saving to: ‘/mnt/lfs/sources/Python-3.8.1.tar.xz’
+
+Python-3.8.1.tar.xz                       100%[=====================================================================================>]  17.00M  2.42MB/s    in 11s
+
+2020-08-09 18:32:16 (1.53 MB/s) - ‘/mnt/lfs/sources/Python-3.8.1.tar.xz’ saved [17828408/17828408]
+
+--2020-08-09 18:32:16--  https://www.python.org/ftp/python/doc/3.8.1/python-3.8.1-docs-html.tar.bz2
+Reusing existing connection to www.python.org:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 6527362 (6.2M) [application/octet-stream]
+Saving to: ‘/mnt/lfs/sources/python-3.8.1-docs-html.tar.bz2’
+
+python-3.8.1-docs-html.tar.bz2            100%[=====================================================================================>]   6.22M  3.92MB/s    in 1.6s
+
+2020-08-09 18:32:18 (3.92 MB/s) - ‘/mnt/lfs/sources/python-3.8.1-docs-html.tar.bz2’ saved [6527362/6527362]
+
+URL transformed to HTTPS due to an HSTS policy
+--2020-08-09 18:32:18--  https://ftp.gnu.org/gnu/readline/readline-8.0.tar.gz
+Connecting to ftp.gnu.org (ftp.gnu.org)|209.51.188.20|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 2975937 (2.8M) [application/x-gzip]
+Saving to: ‘/mnt/lfs/sources/readline-8.0.tar.gz’
+
+readline-8.0.tar.gz                       100%[=====================================================================================>]   2.84M  1.61MB/s    in 1.8s
+
+2020-08-09 18:32:21 (1.61 MB/s) - ‘/mnt/lfs/sources/readline-8.0.tar.gz’ saved [2975937/2975937]
+
+URL transformed to HTTPS due to an HSTS policy
+--2020-08-09 18:32:21--  https://ftp.gnu.org/gnu/sed/sed-4.8.tar.xz
+Reusing existing connection to ftp.gnu.org:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1348048 (1.3M) [application/x-xz]
+Saving to: ‘/mnt/lfs/sources/sed-4.8.tar.xz’
+
+sed-4.8.tar.xz                            100%[=====================================================================================>]   1.29M  1.06MB/s    in 1.2s
+
+2020-08-09 18:32:22 (1.06 MB/s) - ‘/mnt/lfs/sources/sed-4.8.tar.xz’ saved [1348048/1348048]
+
+--2020-08-09 18:32:22--  https://github.com/shadow-maint/shadow/releases/download/4.8.1/shadow-4.8.1.tar.xz
+Connecting to github.com (github.com)|140.82.118.3|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://github-production-release-asset-2e65be.s3.amazonaws.com/10508169/dca99b80-3ebf-11ea-8208-85a651562bd7?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20200809%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20200809T183223Z&X-Amz-Expires=300&X-Amz-Signature=a7904a2371c607422428bfe0e02382a7ecbf7083a324746923edc238b3d42ff7&X-Amz-SignedHeaders=host&actor_id=0&repo_id=10508169&response-content-disposition=attachment%3B%20filename%3Dshadow-4.8.1.tar.xz&response-content-type=application%2Foctet-stream [following]
+--2020-08-09 18:32:23--  https://github-production-release-asset-2e65be.s3.amazonaws.com/10508169/dca99b80-3ebf-11ea-8208-85a651562bd7?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20200809%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20200809T183223Z&X-Amz-Expires=300&X-Amz-Signature=a7904a2371c607422428bfe0e02382a7ecbf7083a324746923edc238b3d42ff7&X-Amz-SignedHeaders=host&actor_id=0&repo_id=10508169&response-content-disposition=attachment%3B%20filename%3Dshadow-4.8.1.tar.xz&response-content-type=application%2Foctet-stream
+Connecting to github-production-release-asset-2e65be.s3.amazonaws.com (github-production-release-asset-2e65be.s3.amazonaws.com)|52.216.129.171|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1611196 (1.5M) [application/octet-stream]
+Saving to: ‘/mnt/lfs/sources/shadow-4.8.1.tar.xz’
+
+shadow-4.8.1.tar.xz                       100%[=====================================================================================>]   1.54M  1.03MB/s    in 1.5s
+
+2020-08-09 18:32:25 (1.03 MB/s) - ‘/mnt/lfs/sources/shadow-4.8.1.tar.xz’ saved [1611196/1611196]
+
+--2020-08-09 18:32:25--  http://www.infodrom.org/projects/sysklogd/download/sysklogd-1.5.1.tar.gz
+Resolving www.infodrom.org (www.infodrom.org)... 217.114.79.202
+Connecting to www.infodrom.org (www.infodrom.org)|217.114.79.202|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://www.infodrom.org/projects/sysklogd/download/sysklogd-1.5.1.tar.gz [following]
+--2020-08-09 18:32:26--  https://www.infodrom.org/projects/sysklogd/download/sysklogd-1.5.1.tar.gz
+Connecting to www.infodrom.org (www.infodrom.org)|217.114.79.202|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 90011 (88K) [application/x-gzip]
+Saving to: ‘/mnt/lfs/sources/sysklogd-1.5.1.tar.gz’
+
+sysklogd-1.5.1.tar.gz                     100%[=====================================================================================>]  87.90K   402KB/s    in 0.2s
+
+2020-08-09 18:32:26 (402 KB/s) - ‘/mnt/lfs/sources/sysklogd-1.5.1.tar.gz’ saved [90011/90011]
+
+--2020-08-09 18:32:26--  https://github.com/systemd/systemd/archive/v244/systemd-244.tar.gz
+Connecting to github.com (github.com)|140.82.118.3|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://codeload.github.com/systemd/systemd/tar.gz/v244 [following]
+--2020-08-09 18:32:27--  https://codeload.github.com/systemd/systemd/tar.gz/v244
+Connecting to codeload.github.com (codeload.github.com)|140.82.112.10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/x-gzip]
+Saving to: ‘/mnt/lfs/sources/systemd-244.tar.gz’
+
+systemd-244.tar.gz                            [                <=>                                                                   ]   8.05M  2.25MB/s    in 3.6s
+
+2020-08-09 18:32:31 (2.25 MB/s) - ‘/mnt/lfs/sources/systemd-244.tar.gz’ saved [8445963]
+
+--2020-08-09 18:32:31--  http://anduin.linuxfromscratch.org/LFS/systemd-man-pages-244.tar.xz
+Connecting to anduin.linuxfromscratch.org (anduin.linuxfromscratch.org)|45.33.5.237|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 517875 (506K) [application/x-xz]
+Saving to: ‘/mnt/lfs/sources/systemd-man-pages-244.tar.xz’
+
+systemd-man-pages-244.tar.xz              100%[=====================================================================================>] 505.74K   429KB/s    in 1.2s
+
+2020-08-09 18:32:33 (429 KB/s) - ‘/mnt/lfs/sources/systemd-man-pages-244.tar.xz’ saved [517875/517875]
+
+--2020-08-09 18:32:33--  http://download.savannah.gnu.org/releases/sysvinit/sysvinit-2.96.tar.xz
+Connecting to download.savannah.gnu.org (download.savannah.gnu.org)|209.51.188.200|:80... connected.
+HTTP request sent, awaiting response... 302 Moved Temporarily
+Location: http://mirror.rackdc.com/savannah/sysvinit/sysvinit-2.96.tar.xz [following]
+--2020-08-09 18:32:33--  http://mirror.rackdc.com/savannah/sysvinit/sysvinit-2.96.tar.xz
+Connecting to mirror.rackdc.com (mirror.rackdc.com)|94.103.32.100|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 122164 (119K) [application/x-xz]
+Saving to: ‘/mnt/lfs/sources/sysvinit-2.96.tar.xz’
+
+sysvinit-2.96.tar.xz                      100%[=====================================================================================>] 119.30K   213KB/s    in 0.6s
+
+2020-08-09 18:32:34 (213 KB/s) - ‘/mnt/lfs/sources/sysvinit-2.96.tar.xz’ saved [122164/122164]
+
+URL transformed to HTTPS due to an HSTS policy
+--2020-08-09 18:32:34--  https://ftp.gnu.org/gnu/tar/tar-1.32.tar.xz
+Connecting to ftp.gnu.org (ftp.gnu.org)|209.51.188.20|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 2103348 (2.0M) [application/x-xz]
+Saving to: ‘/mnt/lfs/sources/tar-1.32.tar.xz’
+
+tar-1.32.tar.xz                           100%[=====================================================================================>]   2.01M  1.19MB/s    in 1.7s
+
+2020-08-09 18:32:37 (1.19 MB/s) - ‘/mnt/lfs/sources/tar-1.32.tar.xz’ saved [2103348/2103348]
+
+--2020-08-09 18:32:37--  https://downloads.sourceforge.net/tcl/tcl8.6.10-src.tar.gz
+Connecting to downloads.sourceforge.net (downloads.sourceforge.net)|216.105.38.13|:443... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://downloads.sourceforge.net/project/tcl/Tcl/8.6.10/tcl8.6.10-src.tar.gz [following]
+--2020-08-09 18:32:38--  https://downloads.sourceforge.net/project/tcl/Tcl/8.6.10/tcl8.6.10-src.tar.gz
+Reusing existing connection to downloads.sourceforge.net:443.
+HTTP request sent, awaiting response... 302 Found
+Location: https://netix.dl.sourceforge.net/project/tcl/Tcl/8.6.10/tcl8.6.10-src.tar.gz [following]
+--2020-08-09 18:32:40--  https://netix.dl.sourceforge.net/project/tcl/Tcl/8.6.10/tcl8.6.10-src.tar.gz
+Connecting to netix.dl.sourceforge.net (netix.dl.sourceforge.net)|87.121.121.2|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 10144235 (9.7M) [application/x-gzip]
+Saving to: ‘/mnt/lfs/sources/tcl8.6.10-src.tar.gz’
+
+tcl8.6.10-src.tar.gz                      100%[=====================================================================================>]   9.67M  1.62MB/s    in 6.9s
+
+2020-08-09 18:32:47 (1.40 MB/s) - ‘/mnt/lfs/sources/tcl8.6.10-src.tar.gz’ saved [10144235/10144235]
+
+URL transformed to HTTPS due to an HSTS policy
+--2020-08-09 18:32:47--  https://ftp.gnu.org/gnu/texinfo/texinfo-6.7.tar.xz
+Connecting to ftp.gnu.org (ftp.gnu.org)|209.51.188.20|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 4337984 (4.1M) [application/x-xz]
+Saving to: ‘/mnt/lfs/sources/texinfo-6.7.tar.xz’
+
+texinfo-6.7.tar.xz                        100%[=====================================================================================>]   4.14M  1.99MB/s    in 2.1s
+
+2020-08-09 18:32:50 (1.99 MB/s) - ‘/mnt/lfs/sources/texinfo-6.7.tar.xz’ saved [4337984/4337984]
+
+--2020-08-09 18:32:50--  https://www.iana.org/time-zones/repository/releases/tzdata2019c.tar.gz
+Resolving www.iana.org (www.iana.org)... 192.0.32.8, 2620:0:2d0:200::8
+Connecting to www.iana.org (www.iana.org)|192.0.32.8|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://data.iana.org/time-zones/releases/tzdata2019c.tar.gz [following]
+--2020-08-09 18:32:52--  https://data.iana.org/time-zones/releases/tzdata2019c.tar.gz
+Resolving data.iana.org (data.iana.org)... 72.21.81.189, 2606:2800:11f:bb5:f27:227f:1bbf:a0e
+Connecting to data.iana.org (data.iana.org)|72.21.81.189|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 392087 (383K) [application/x-gzip]
+Saving to: ‘/mnt/lfs/sources/tzdata2019c.tar.gz’
+
+tzdata2019c.tar.gz                        100%[=====================================================================================>] 382.90K   426KB/s    in 0.9s
+
+2020-08-09 18:32:54 (426 KB/s) - ‘/mnt/lfs/sources/tzdata2019c.tar.gz’ saved [392087/392087]
+
+--2020-08-09 18:32:54--  http://anduin.linuxfromscratch.org/LFS/udev-lfs-20171102.tar.xz
+Connecting to anduin.linuxfromscratch.org (anduin.linuxfromscratch.org)|45.33.5.237|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 10280 (10K) [application/x-xz]
+Saving to: ‘/mnt/lfs/sources/udev-lfs-20171102.tar.xz’
+
+udev-lfs-20171102.tar.xz                  100%[=====================================================================================>]  10.04K  --.-KB/s    in 0.001s
+
+2020-08-09 18:32:55 (18.1 MB/s) - ‘/mnt/lfs/sources/udev-lfs-20171102.tar.xz’ saved [10280/10280]
+
+--2020-08-09 18:32:55--  https://www.kernel.org/pub/linux/utils/util-linux/v2.35/util-linux-2.35.1.tar.xz
+Connecting to www.kernel.org (www.kernel.org)|136.144.49.103|:443... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://mirrors.edge.kernel.org/pub/linux/utils/util-linux/v2.35/util-linux-2.35.1.tar.xz [following]
+--2020-08-09 18:32:55--  https://mirrors.edge.kernel.org/pub/linux/utils/util-linux/v2.35/util-linux-2.35.1.tar.xz
+Connecting to mirrors.edge.kernel.org (mirrors.edge.kernel.org)|147.75.101.1|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 5138360 (4.9M) [application/x-xz]
+Saving to: ‘/mnt/lfs/sources/util-linux-2.35.1.tar.xz’
+
+util-linux-2.35.1.tar.xz                  100%[=====================================================================================>]   4.90M   353KB/s    in 15s
+
+2020-08-09 18:33:11 (333 KB/s) - ‘/mnt/lfs/sources/util-linux-2.35.1.tar.xz’ saved [5138360/5138360]
+
+--2020-08-09 18:33:11--  https://cpan.metacpan.org/authors/id/T/TO/TODDR/XML-Parser-2.46.tar.gz
+Resolving cpan.metacpan.org (cpan.metacpan.org)... 151.101.14.217, 2a04:4e42:3::729
+Connecting to cpan.metacpan.org (cpan.metacpan.org)|151.101.14.217|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 254763 (249K) [application/x-gzip]
+Saving to: ‘/mnt/lfs/sources/XML-Parser-2.46.tar.gz’
+
+XML-Parser-2.46.tar.gz                    100%[=====================================================================================>] 248.79K   536KB/s    in 0.5s
+
+2020-08-09 18:33:12 (536 KB/s) - ‘/mnt/lfs/sources/XML-Parser-2.46.tar.gz’ saved [254763/254763]
+
+--2020-08-09 18:33:12--  https://tukaani.org/xz/xz-5.2.4.tar.xz
+Resolving tukaani.org (tukaani.org)... 84.34.147.45
+Connecting to tukaani.org (tukaani.org)|84.34.147.45|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://sourceforge.net/projects/lzmautils/files/xz-5.2.4.tar.xz/download [following]
+--2020-08-09 18:33:13--  https://sourceforge.net/projects/lzmautils/files/xz-5.2.4.tar.xz/download
+Connecting to sourceforge.net (sourceforge.net)|216.105.38.13|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://downloads.sourceforge.net/project/lzmautils/xz-5.2.4.tar.xz?r=&ts=1596997994&use_mirror=netix [following]
+--2020-08-09 18:33:14--  https://downloads.sourceforge.net/project/lzmautils/xz-5.2.4.tar.xz?r=&ts=1596997994&use_mirror=netix
+Connecting to downloads.sourceforge.net (downloads.sourceforge.net)|216.105.38.13|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://netix.dl.sourceforge.net/project/lzmautils/xz-5.2.4.tar.xz [following]
+--2020-08-09 18:33:16--  https://netix.dl.sourceforge.net/project/lzmautils/xz-5.2.4.tar.xz
+Connecting to netix.dl.sourceforge.net (netix.dl.sourceforge.net)|87.121.121.2|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1053868 (1.0M) [application/octet-stream]
+Saving to: ‘/mnt/lfs/sources/xz-5.2.4.tar.xz’
+
+xz-5.2.4.tar.xz                           100%[=====================================================================================>]   1.00M   792KB/s    in 1.3s
+
+2020-08-09 18:33:17 (792 KB/s) - ‘/mnt/lfs/sources/xz-5.2.4.tar.xz’ saved [1053868/1053868]
+
+--2020-08-09 18:33:17--  https://zlib.net/zlib-1.2.11.tar.xz
+Resolving zlib.net (zlib.net)... 68.66.224.49
+Connecting to zlib.net (zlib.net)|68.66.224.49|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 467960 (457K) [application/x-xz]
+Saving to: ‘/mnt/lfs/sources/zlib-1.2.11.tar.xz’
+
+zlib-1.2.11.tar.xz                        100%[=====================================================================================>] 456.99K   344KB/s    in 1.3s
+
+2020-08-09 18:33:20 (344 KB/s) - ‘/mnt/lfs/sources/zlib-1.2.11.tar.xz’ saved [467960/467960]
+
+--2020-08-09 18:33:20--  https://github.com/facebook/zstd/releases/download/v1.4.4/zstd-1.4.4.tar.gz
+Connecting to github.com (github.com)|140.82.118.3|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://github-production-release-asset-2e65be.s3.amazonaws.com/29759715/c117ae80-ffbc-11e9-929b-82cc11e5335e?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20200809%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20200809T183320Z&X-Amz-Expires=300&X-Amz-Signature=f5ff3d2c681cd297809d90eba7850dfcadc9bf8d1a77ff6bd4d0f2f9837567ba&X-Amz-SignedHeaders=host&actor_id=0&repo_id=29759715&response-content-disposition=attachment%3B%20filename%3Dzstd-1.4.4.tar.gz&response-content-type=application%2Foctet-stream [following]
+--2020-08-09 18:33:20--  https://github-production-release-asset-2e65be.s3.amazonaws.com/29759715/c117ae80-ffbc-11e9-929b-82cc11e5335e?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20200809%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20200809T183320Z&X-Amz-Expires=300&X-Amz-Signature=f5ff3d2c681cd297809d90eba7850dfcadc9bf8d1a77ff6bd4d0f2f9837567ba&X-Amz-SignedHeaders=host&actor_id=0&repo_id=29759715&response-content-disposition=attachment%3B%20filename%3Dzstd-1.4.4.tar.gz&response-content-type=application%2Foctet-stream
+Connecting to github-production-release-asset-2e65be.s3.amazonaws.com (github-production-release-asset-2e65be.s3.amazonaws.com)|52.216.129.171|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1948426 (1.9M) [application/octet-stream]
+Saving to: ‘/mnt/lfs/sources/zstd-1.4.4.tar.gz’
+
+zstd-1.4.4.tar.gz                         100%[=====================================================================================>]   1.86M  1.05MB/s    in 1.8s
+
+2020-08-09 18:33:23 (1.05 MB/s) - ‘/mnt/lfs/sources/zstd-1.4.4.tar.gz’ saved [1948426/1948426]
+
+--2020-08-09 18:33:23--  http://www.linuxfromscratch.org/patches/lfs/9.1/bash-5.0-upstream_fixes-1.patch
+Connecting to www.linuxfromscratch.org (www.linuxfromscratch.org)|192.155.86.174|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 21672 (21K) [text/x-diff]
+Saving to: ‘/mnt/lfs/sources/bash-5.0-upstream_fixes-1.patch’
+
+bash-5.0-upstream_fixes-1.patch           100%[=====================================================================================>]  21.16K  51.0KB/s    in 0.4s
+
+2020-08-09 18:33:24 (51.0 KB/s) - ‘/mnt/lfs/sources/bash-5.0-upstream_fixes-1.patch’ saved [21672/21672]
+
+--2020-08-09 18:33:24--  http://www.linuxfromscratch.org/patches/lfs/9.1/bzip2-1.0.8-install_docs-1.patch
+Reusing existing connection to www.linuxfromscratch.org:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 1684 (1.6K) [text/x-diff]
+Saving to: ‘/mnt/lfs/sources/bzip2-1.0.8-install_docs-1.patch’
+
+bzip2-1.0.8-install_docs-1.patch          100%[=====================================================================================>]   1.64K  --.-KB/s    in 0s
+
+2020-08-09 18:33:24 (210 MB/s) - ‘/mnt/lfs/sources/bzip2-1.0.8-install_docs-1.patch’ saved [1684/1684]
+
+--2020-08-09 18:33:24--  http://www.linuxfromscratch.org/patches/lfs/9.1/coreutils-8.31-i18n-1.patch
+Reusing existing connection to www.linuxfromscratch.org:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 171372 (167K) [text/x-diff]
+Saving to: ‘/mnt/lfs/sources/coreutils-8.31-i18n-1.patch’
+
+coreutils-8.31-i18n-1.patch               100%[=====================================================================================>] 167.36K   194KB/s    in 0.9s
+
+2020-08-09 18:33:25 (194 KB/s) - ‘/mnt/lfs/sources/coreutils-8.31-i18n-1.patch’ saved [171372/171372]
+
+--2020-08-09 18:33:25--  http://www.linuxfromscratch.org/patches/lfs/9.1/glibc-2.31-fhs-1.patch
+Reusing existing connection to www.linuxfromscratch.org:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 2804 (2.7K) [text/x-diff]
+Saving to: ‘/mnt/lfs/sources/glibc-2.31-fhs-1.patch’
+
+glibc-2.31-fhs-1.patch                    100%[=====================================================================================>]   2.74K  --.-KB/s    in 0s
+
+2020-08-09 18:33:26 (335 MB/s) - ‘/mnt/lfs/sources/glibc-2.31-fhs-1.patch’ saved [2804/2804]
+
+--2020-08-09 18:33:26--  http://www.linuxfromscratch.org/patches/lfs/9.1/kbd-2.2.0-backspace-1.patch
+Reusing existing connection to www.linuxfromscratch.org:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 12640 (12K) [text/x-diff]
+Saving to: ‘/mnt/lfs/sources/kbd-2.2.0-backspace-1.patch’
+
+kbd-2.2.0-backspace-1.patch               100%[=====================================================================================>]  12.34K  --.-KB/s    in 0.002s
+
+2020-08-09 18:33:26 (6.44 MB/s) - ‘/mnt/lfs/sources/kbd-2.2.0-backspace-1.patch’ saved [12640/12640]
+
+--2020-08-09 18:33:26--  http://www.linuxfromscratch.org/patches/lfs/9.1/sysvinit-2.96-consolidated-1.patch
+Reusing existing connection to www.linuxfromscratch.org:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 2468 (2.4K) [text/x-diff]
+Saving to: ‘/mnt/lfs/sources/sysvinit-2.96-consolidated-1.patch’
+
+sysvinit-2.96-consolidated-1.patch        100%[=====================================================================================>]   2.41K  --.-KB/s    in 0s
+
+2020-08-09 18:33:26 (251 MB/s) - ‘/mnt/lfs/sources/sysvinit-2.96-consolidated-1.patch’ saved [2468/2468]
+
+FINISHED --2020-08-09 18:33:26--
+Total wall clock time: 5m 10s
+Downloaded: 34 files, 91M in 1m 12s (1.27 MB/s)
+orxan@ubuntuserver:~/GIT/Linux-From-Scratch/NecessaryPackages$ cd $LFS/sources
+orxan@ubuntuserver:/mnt/lfs/sources$ ls
+acl-2.2.53.tar.gz                 e2fsprogs-1.45.5.tar.gz  grub-2.04.tar.xz                 man-db-2.9.0.tar.xz             shadow-4.8.1.tar.xz
+attr-2.4.48.tar.gz                elfutils-0.178.tar.bz2   gzip-1.10.tar.xz                 man-pages-5.05.tar.xz           sysklogd-1.5.1.tar.gz
+autoconf-2.69.tar.xz              eudev-3.2.9.tar.gz       iana-etc-2.30.tar.bz2            md5sums                         systemd-244.tar.gz
+automake-1.16.1.tar.xz            expat-2.2.9.tar.xz       inetutils-1.9.4.tar.xz           meson-0.53.1.tar.gz             systemd-man-pages-244.tar.xz
+bash-5.0.tar.gz                   expect5.45.4.tar.gz      intltool-0.51.0.tar.gz           mpc-1.1.0.tar.gz                sysvinit-2.96-consolidated-1.patch
+bash-5.0-upstream_fixes-1.patch   findutils-4.7.0.tar.xz   iproute2-5.5.0.tar.xz            ncurses-6.2.tar.gz              sysvinit-2.96.tar.xz
+bc-2.5.3.tar.gz                   flex-2.6.4.tar.gz        kbd-2.2.0-backspace-1.patch      ninja-1.10.0.tar.gz             tar-1.32.tar.xz
+binutils-2.34.tar.xz              gawk-5.0.1.tar.xz        kbd-2.2.0.tar.xz                 openssl-1.1.1d.tar.gz           tcl8.6.10-src.tar.gz
+bison-3.5.2.tar.xz                gcc-9.2.0.tar.xz         kmod-26.tar.xz                   patch-2.7.6.tar.xz              texinfo-6.7.tar.xz
+bzip2-1.0.8-install_docs-1.patch  gdbm-1.18.1.tar.gz       less-551.tar.gz                  perl-5.30.1.tar.xz              tzdata2019c.tar.gz
+bzip2-1.0.8.tar.gz                gettext-0.20.1.tar.xz    lfs-bootscripts-20191031.tar.xz  pkg-config-0.29.2.tar.gz        udev-lfs-20171102.tar.xz
+check-0.14.0.tar.gz               glibc-2.31-fhs-1.patch   libcap-2.31.tar.xz               procps-ng-3.3.15.tar.xz         util-linux-2.35.1.tar.xz
+coreutils-8.31-i18n-1.patch       glibc-2.31.tar.xz        libffi-3.3.tar.gz                psmisc-23.2.tar.xz              XML-Parser-2.46.tar.gz
+coreutils-8.31.tar.xz             gmp-6.2.0.tar.xz         libpipeline-1.5.2.tar.gz         python-3.8.1-docs-html.tar.bz2  xz-5.2.4.tar.xz
+dbus-1.12.16.tar.gz               gperf-3.1.tar.gz         libtool-2.4.6.tar.xz             Python-3.8.1.tar.xz             zlib-1.2.11.tar.xz
+dejagnu-1.6.2.tar.gz              grep-3.4.tar.xz          m4-1.4.18.tar.xz                 readline-8.0.tar.gz             zstd-1.4.4.tar.gz
+diffutils-3.7.tar.xz              groff-1.22.4.tar.gz      make-4.3.tar.gz                  sed-4.8.tar.xz
+orxan@ubuntuserver:/mnt/lfs/sources$ md5sum -c md5sums
+acl-2.2.53.tar.gz: OK
+attr-2.4.48.tar.gz: OK
+autoconf-2.69.tar.xz: OK
+automake-1.16.1.tar.xz: OK
+bash-5.0.tar.gz: OK
+bc-2.5.3.tar.gz: OK
+binutils-2.34.tar.xz: OK
+bison-3.5.2.tar.xz: OK
+bzip2-1.0.8.tar.gz: OK
+check-0.14.0.tar.gz: OK
+coreutils-8.31.tar.xz: OK
+dejagnu-1.6.2.tar.gz: OK
+diffutils-3.7.tar.xz: OK
+e2fsprogs-1.45.5.tar.gz: OK
+elfutils-0.178.tar.bz2: OK
+eudev-3.2.9.tar.gz: OK
+expat-2.2.9.tar.xz: OK
+expect5.45.4.tar.gz: OK
+md5sum: file-5.38.tar.gz: No such file or directory
+file-5.38.tar.gz: FAILED open or read
+findutils-4.7.0.tar.xz: OK
+flex-2.6.4.tar.gz: OK
+gawk-5.0.1.tar.xz: OK
+gcc-9.2.0.tar.xz: OK
+gdbm-1.18.1.tar.gz: OK
+gettext-0.20.1.tar.xz: OK
+glibc-2.31.tar.xz: OK
+gmp-6.2.0.tar.xz: OK
+gperf-3.1.tar.gz: OK
+grep-3.4.tar.xz: OK
+groff-1.22.4.tar.gz: OK
+grub-2.04.tar.xz: OK
+gzip-1.10.tar.xz: OK
+iana-etc-2.30.tar.bz2: OK
+inetutils-1.9.4.tar.xz: OK
+intltool-0.51.0.tar.gz: OK
+iproute2-5.5.0.tar.xz: OK
+kbd-2.2.0.tar.xz: OK
+kmod-26.tar.xz: OK
+less-551.tar.gz: OK
+lfs-bootscripts-20191031.tar.xz: OK
+libcap-2.31.tar.xz: OK
+libffi-3.3.tar.gz: OK
+libpipeline-1.5.2.tar.gz: OK
+libtool-2.4.6.tar.xz: OK
+md5sum: linux-5.5.3.tar.xz: No such file or directory
+linux-5.5.3.tar.xz: FAILED open or read
+m4-1.4.18.tar.xz: OK
+make-4.3.tar.gz: OK
+man-db-2.9.0.tar.xz: OK
+man-pages-5.05.tar.xz: OK
+meson-0.53.1.tar.gz: OK
+mpc-1.1.0.tar.gz: OK
+md5sum: mpfr-4.0.2.tar.xz: No such file or directory
+mpfr-4.0.2.tar.xz: FAILED open or read
+ninja-1.10.0.tar.gz: OK
+ncurses-6.2.tar.gz: OK
+openssl-1.1.1d.tar.gz: OK
+patch-2.7.6.tar.xz: OK
+perl-5.30.1.tar.xz: OK
+pkg-config-0.29.2.tar.gz: OK
+procps-ng-3.3.15.tar.xz: OK
+psmisc-23.2.tar.xz: OK
+Python-3.8.1.tar.xz: OK
+python-3.8.1-docs-html.tar.bz2: OK
+readline-8.0.tar.gz: OK
+sed-4.8.tar.xz: OK
+shadow-4.8.1.tar.xz: OK
+sysklogd-1.5.1.tar.gz: OK
+sysvinit-2.96.tar.xz: OK
+tar-1.32.tar.xz: OK
+tcl8.6.10-src.tar.gz: OK
+texinfo-6.7.tar.xz: OK
+tzdata2019c.tar.gz: OK
+udev-lfs-20171102.tar.xz: OK
+util-linux-2.35.1.tar.xz: OK
+md5sum: vim-8.2.0190.tar.gz: No such file or directory
+vim-8.2.0190.tar.gz: FAILED open or read
+XML-Parser-2.46.tar.gz: OK
+xz-5.2.4.tar.xz: OK
+zlib-1.2.11.tar.xz: OK
+zstd-1.4.4.tar.gz: OK
+bash-5.0-upstream_fixes-1.patch: OK
+bzip2-1.0.8-install_docs-1.patch: OK
+coreutils-8.31-i18n-1.patch: OK
+glibc-2.31-fhs-1.patch: OK
+kbd-2.2.0-backspace-1.patch: OK
+sysvinit-2.96-consolidated-1.patch: OK
+md5sum: WARNING: 4 listed files could not be read
+orxan@ubuntuserver:/mnt/lfs/sources$ md5sum -c md5sums > md5_results
+md5sum: file-5.38.tar.gz: No such file or directory
+md5sum: linux-5.5.3.tar.xz: No such file or directory
+md5sum: mpfr-4.0.2.tar.xz: No such file or directory
+md5sum: vim-8.2.0190.tar.gz: No such file or directory
+md5sum: WARNING: 4 listed files could not be read
+orxan@ubuntuserver:/mnt/lfs/sources$ md5sum -c md5sums 2> md5_errors
+acl-2.2.53.tar.gz: OK
+attr-2.4.48.tar.gz: OK
+autoconf-2.69.tar.xz: OK
+automake-1.16.1.tar.xz: OK
+bash-5.0.tar.gz: OK
+bc-2.5.3.tar.gz: OK
+binutils-2.34.tar.xz: OK
+bison-3.5.2.tar.xz: OK
+bzip2-1.0.8.tar.gz: OK
+check-0.14.0.tar.gz: OK
+coreutils-8.31.tar.xz: OK
+dejagnu-1.6.2.tar.gz: OK
+diffutils-3.7.tar.xz: OK
+e2fsprogs-1.45.5.tar.gz: OK
+elfutils-0.178.tar.bz2: OK
+eudev-3.2.9.tar.gz: OK
+expat-2.2.9.tar.xz: OK
+expect5.45.4.tar.gz: OK
+file-5.38.tar.gz: FAILED open or read
+findutils-4.7.0.tar.xz: OK
+flex-2.6.4.tar.gz: OK
+gawk-5.0.1.tar.xz: OK
+gcc-9.2.0.tar.xz: OK
+gdbm-1.18.1.tar.gz: OK
+gettext-0.20.1.tar.xz: OK
+glibc-2.31.tar.xz: OK
+gmp-6.2.0.tar.xz: OK
+gperf-3.1.tar.gz: OK
+grep-3.4.tar.xz: OK
+groff-1.22.4.tar.gz: OK
+grub-2.04.tar.xz: OK
+gzip-1.10.tar.xz: OK
+iana-etc-2.30.tar.bz2: OK
+inetutils-1.9.4.tar.xz: OK
+intltool-0.51.0.tar.gz: OK
+iproute2-5.5.0.tar.xz: OK
+kbd-2.2.0.tar.xz: OK
+kmod-26.tar.xz: OK
+less-551.tar.gz: OK
+lfs-bootscripts-20191031.tar.xz: OK
+libcap-2.31.tar.xz: OK
+libffi-3.3.tar.gz: OK
+libpipeline-1.5.2.tar.gz: OK
+libtool-2.4.6.tar.xz: OK
+linux-5.5.3.tar.xz: FAILED open or read
+m4-1.4.18.tar.xz: OK
+make-4.3.tar.gz: OK
+man-db-2.9.0.tar.xz: OK
+man-pages-5.05.tar.xz: OK
+meson-0.53.1.tar.gz: OK
+mpc-1.1.0.tar.gz: OK
+mpfr-4.0.2.tar.xz: FAILED open or read
+ninja-1.10.0.tar.gz: OK
+ncurses-6.2.tar.gz: OK
+openssl-1.1.1d.tar.gz: OK
+patch-2.7.6.tar.xz: OK
+perl-5.30.1.tar.xz: OK
+pkg-config-0.29.2.tar.gz: OK
+procps-ng-3.3.15.tar.xz: OK
+psmisc-23.2.tar.xz: OK
+Python-3.8.1.tar.xz: OK
+python-3.8.1-docs-html.tar.bz2: OK
+readline-8.0.tar.gz: OK
+sed-4.8.tar.xz: OK
+shadow-4.8.1.tar.xz: OK
+sysklogd-1.5.1.tar.gz: OK
+sysvinit-2.96.tar.xz: OK
+tar-1.32.tar.xz: OK
+tcl8.6.10-src.tar.gz: OK
+texinfo-6.7.tar.xz: OK
+tzdata2019c.tar.gz: OK
+udev-lfs-20171102.tar.xz: OK
+util-linux-2.35.1.tar.xz: OK
+vim-8.2.0190.tar.gz: FAILED open or read
+XML-Parser-2.46.tar.gz: OK
+xz-5.2.4.tar.xz: OK
+zlib-1.2.11.tar.xz: OK
+zstd-1.4.4.tar.gz: OK
+bash-5.0-upstream_fixes-1.patch: OK
+bzip2-1.0.8-install_docs-1.patch: OK
+coreutils-8.31-i18n-1.patch: OK
+glibc-2.31-fhs-1.patch: OK
+kbd-2.2.0-backspace-1.patch: OK
+sysvinit-2.96-consolidated-1.patch: OK
+orxan@ubuntuserver:/mnt/lfs/sources$ ls
+acl-2.2.53.tar.gz                 elfutils-0.178.tar.bz2  iana-etc-2.30.tar.bz2            md5_results                     systemd-244.tar.gz
+attr-2.4.48.tar.gz                eudev-3.2.9.tar.gz      inetutils-1.9.4.tar.xz           md5sums                         systemd-man-pages-244.tar.xz
+autoconf-2.69.tar.xz              expat-2.2.9.tar.xz      intltool-0.51.0.tar.gz           meson-0.53.1.tar.gz             sysvinit-2.96-consolidated-1.patch
+automake-1.16.1.tar.xz            expect5.45.4.tar.gz     iproute2-5.5.0.tar.xz            mpc-1.1.0.tar.gz                sysvinit-2.96.tar.xz
+bash-5.0.tar.gz                   findutils-4.7.0.tar.xz  kbd-2.2.0-backspace-1.patch      ncurses-6.2.tar.gz              tar-1.32.tar.xz
+bash-5.0-upstream_fixes-1.patch   flex-2.6.4.tar.gz       kbd-2.2.0.tar.xz                 ninja-1.10.0.tar.gz             tcl8.6.10-src.tar.gz
+bc-2.5.3.tar.gz                   gawk-5.0.1.tar.xz       kmod-26.tar.xz                   openssl-1.1.1d.tar.gz           texinfo-6.7.tar.xz
+binutils-2.34.tar.xz              gcc-9.2.0.tar.xz        less-551.tar.gz                  patch-2.7.6.tar.xz              tzdata2019c.tar.gz
+bison-3.5.2.tar.xz                gdbm-1.18.1.tar.gz      lfs-bootscripts-20191031.tar.xz  perl-5.30.1.tar.xz              udev-lfs-20171102.tar.xz
+bzip2-1.0.8-install_docs-1.patch  gettext-0.20.1.tar.xz   libcap-2.31.tar.xz               pkg-config-0.29.2.tar.gz        util-linux-2.35.1.tar.xz
+bzip2-1.0.8.tar.gz                glibc-2.31-fhs-1.patch  libffi-3.3.tar.gz                procps-ng-3.3.15.tar.xz         XML-Parser-2.46.tar.gz
+check-0.14.0.tar.gz               glibc-2.31.tar.xz       libpipeline-1.5.2.tar.gz         psmisc-23.2.tar.xz              xz-5.2.4.tar.xz
+coreutils-8.31-i18n-1.patch       gmp-6.2.0.tar.xz        libtool-2.4.6.tar.xz             python-3.8.1-docs-html.tar.bz2  zlib-1.2.11.tar.xz
+coreutils-8.31.tar.xz             gperf-3.1.tar.gz        m4-1.4.18.tar.xz                 Python-3.8.1.tar.xz             zstd-1.4.4.tar.gz
+dbus-1.12.16.tar.gz               grep-3.4.tar.xz         make-4.3.tar.gz                  readline-8.0.tar.gz
+dejagnu-1.6.2.tar.gz              groff-1.22.4.tar.gz     man-db-2.9.0.tar.xz              sed-4.8.tar.xz
+diffutils-3.7.tar.xz              grub-2.04.tar.xz        man-pages-5.05.tar.xz            shadow-4.8.1.tar.xz
+e2fsprogs-1.45.5.tar.gz           gzip-1.10.tar.xz        md5_errors                       sysklogd-1.5.1.tar.gz
+orxan@ubuntuserver:/mnt/lfs/sources$ cat md5_errors
+md5sum: file-5.38.tar.gz: No such file or directory
+md5sum: linux-5.5.3.tar.xz: No such file or directory
+md5sum: mpfr-4.0.2.tar.xz: No such file or directory
+md5sum: vim-8.2.0190.tar.gz: No such file or directory
+md5sum: WARNING: 4 listed files could not be read
+orxan@ubuntuserver:/mnt/lfs/sources$

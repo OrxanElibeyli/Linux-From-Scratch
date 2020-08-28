@@ -1,0 +1,75 @@
+orxan@ubuntuserver:/mnt/lfs
+-->$ ls
+sources
+orxan@ubuntuserver:/mnt/lfs
+-->$ mkdir -v $LFS/tools
+mkdir: cannot create directory ‘/mnt/lfs/tools’: Permission denied
+orxan@ubuntuserver:/mnt/lfs
+-->$ sudo mkdir -v $LFS/tools
+[sudo] password for orxan:
+mkdir: created directory '/mnt/lfs/tools'
+orxan@ubuntuserver:/mnt/lfs
+-->$ ls
+sources  tools
+orxan@ubuntuserver:/mnt/lfs
+-->$
+orxan@ubuntuserver:~
+-->$ ln -sv $LFS/tools /
+ln: failed to create symbolic link '/tools': Permission denied
+orxan@ubuntuserver:~
+-->$
+orxan@ubuntuserver:~
+-->$ sudo ln -sv $LFS/tools /
+[sudo] password for orxan:
+'/tools' -> '/mnt/lfs/tools'
+orxan@ubuntuserver:~
+-->$ ls
+a.out  GIT  GunixLogs  lfs  log.txt  test  test.c  tests  typescript
+orxan@ubuntuserver:~
+-->$ cd $LFS
+orxan@ubuntuserver:/mnt/lfs
+-->$ ls -l
+total 8
+drwxrwxrwt 5 root root 4096 Aug 14 14:03 sources
+drwxr-xr-x 2 root root 4096 Aug 14 14:30 tools
+orxan@ubuntuserver:/mnt/lfs
+-->$ ls -la
+total 16
+drwxr-xr-x 4 root root 4096 Aug 14 14:30 .
+drwxr-xr-x 3 root root 4096 Aug  2 12:48 ..
+drwxrwxrwt 5 root root 4096 Aug 14 14:03 sources
+drwxr-xr-x 2 root root 4096 Aug 14 14:30 tools
+orxan@ubuntuserver:/mnt/lfs
+-->$ ls -l /
+total 2097224
+lrwxrwxrwx   1 root root          7 Apr 23 07:32 bin -> usr/bin
+drwxr-xr-x   3 root root       4096 Aug  2 11:33 boot
+drwxr-xr-x   2 root root       4096 Jun 10 19:55 cdrom
+drwxr-xr-x  18 root root       4200 Aug 14 15:24 dev
+drwxr-xr-x  92 root root       4096 Aug 12 13:22 etc
+drwxr-xr-x   3 root root       4096 Jun 10 20:09 home
+lrwxrwxrwx   1 root root          7 Apr 23 07:32 lib -> usr/lib
+lrwxrwxrwx   1 root root          9 Apr 23 07:32 lib32 -> usr/lib32
+lrwxrwxrwx   1 root root          9 Apr 23 07:32 lib64 -> usr/lib64
+lrwxrwxrwx   1 root root         10 Apr 23 07:32 libx32 -> usr/libx32
+drwx------   2 root root      16384 Jun 10 19:53 lost+found
+drwxr-xr-x   2 root root       4096 Apr 23 07:32 media
+drwxr-xr-x   3 root root       4096 Aug  2 12:48 mnt
+drwxr-xr-x   3 root root       4096 Jun 10 20:11 opt
+dr-xr-xr-x 261 root root          0 Aug 14 15:23 proc
+drwx------   8 root root       4096 Aug  2 12:08 root
+drwxr-xr-x  27 root root        840 Aug 14 15:25 run
+lrwxrwxrwx   1 root root          8 Apr 23 07:32 sbin -> usr/sbin
+drwxr-xr-x   8 root root       4096 Jun 10 20:11 snap
+drwxr-xr-x   2 root root       4096 Apr 23 07:32 srv
+-rw-------   1 root root 2147483648 Jun 10 19:58 swap.img
+dr-xr-xr-x  13 root root          0 Aug 14 15:23 sys
+drwxrwxrwt  12 root root       4096 Aug 14 15:24 tmp
+lrwxrwxrwx   1 root root         14 Aug 14 15:26 tools -> /mnt/lfs/tools
+drwxr-xr-x  14 root root       4096 Aug  2 12:31 usr
+drwxr-xr-x  13 root root       4096 Apr 23 07:35 var
+orxan@ubuntuserver:/mnt/lfs
+-->$ ls tools
+orxan@ubuntuserver:/mnt/lfs
+-->$
+orxan@ubuntu

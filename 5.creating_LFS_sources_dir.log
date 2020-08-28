@@ -1,0 +1,55 @@
+orxan@ubuntuserver:~$ mkdir --help
+Usage: mkdir [OPTION]... DIRECTORY...
+Create the DIRECTORY(ies), if they do not already exist.
+
+Mandatory arguments to long options are mandatory for short options too.
+  -m, --mode=MODE   set file mode (as in chmod), not a=rwx - umask
+  -p, --parents     no error if existing, make parent directories as needed
+  -v, --verbose     print a message for each created directory
+  -Z                   set SELinux security context of each created directory
+                         to the default type
+      --context[=CTX]  like -Z, or if CTX is specified then set the SELinux
+                         or SMACK security context to CTX
+      --help     display this help and exit
+      --version  output version information and exit
+
+GNU coreutils online help: <https://www.gnu.org/software/coreutils/>
+Full documentation at: <https://www.gnu.org/software/coreutils/mkdir>
+or available locally via: info '(coreutils) mkdir invocation'
+orxan@ubuntuserver:~$ sudo mkdir -v $LFS/sources
+[sudo] password for orxan:
+mkdir: created directory '/mnt/lfs/sources'
+orxan@ubuntuserver:~$ ls -l /mnt/lfs
+total 4
+drwxr-xr-x 2 root root 4096 Aug  3 14:07 sources
+orxan@ubuntuserver:~$ chmod --help
+Usage: chmod [OPTION]... MODE[,MODE]... FILE...
+  or:  chmod [OPTION]... OCTAL-MODE FILE...
+  or:  chmod [OPTION]... --reference=RFILE FILE...
+Change the mode of each FILE to MODE.
+With --reference, change the mode of each FILE to that of RFILE.
+
+  -c, --changes          like verbose but report only when a change is made
+  -f, --silent, --quiet  suppress most error messages
+  -v, --verbose          output a diagnostic for every file processed
+      --no-preserve-root  do not treat '/' specially (the default)
+      --preserve-root    fail to operate recursively on '/'
+      --reference=RFILE  use RFILE's mode instead of MODE values
+  -R, --recursive        change files and directories recursively
+      --help     display this help and exit
+      --version  output version information and exit
+
+Each MODE is of the form '[ugoa]*([-+=]([rwxXst]*|[ugo]))+|[-+=][0-7]+'.
+
+GNU coreutils online help: <https://www.gnu.org/software/coreutils/>
+Full documentation at: <https://www.gnu.org/software/coreutils/chmod>
+or available locally via: info '(coreutils) chmod invocation'
+orxan@ubuntuserver:~$ chmod -v a+wt $LFS/sources
+chmod: changing permissions of '/mnt/lfs/sources': Operation not permitted
+failed to change mode of '/mnt/lfs/sources' from 0755 (rwxr-xr-x) to 1777 (rwxrwxrwt)
+orxan@ubuntuserver:~$ sudo chmod -v a+wt $LFS/sources
+mode of '/mnt/lfs/sources' changed from 0755 (rwxr-xr-x) to 1777 (rwxrwxrwt)
+orxan@ubuntuserver:~$ ls -l /mnt/lfs
+total 4
+drwxrwxrwt 2 root root 4096 Aug  3 14:07 sources
+orxan@ubuntuserver:~$

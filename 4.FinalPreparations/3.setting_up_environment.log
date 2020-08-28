@@ -1,0 +1,150 @@
+orxan@ubuntuserver:~
+-->$ login lfs
+login: Cannot possibly work without effective root
+orxan@ubuntuserver:~
+-->$ sudo login lfs
+[sudo] password for orxan:
+Password:
+Welcome to Ubuntu 20.04 LTS (GNU/Linux 5.4.0-42-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+ System information disabled due to load higher than 1.0
+
+ * Are you ready for Kubernetes 1.19? It's nearly here! Try RC3 with
+   sudo snap install microk8s --channel=1.19/candidate --classic
+
+   https://microk8s.io/ has docs and details.
+
+67 updates can be installed immediately.
+1 of these updates is a security update.
+To see these additional updates run: apt list --upgradable
+
+
+Last login: Sat Aug 15 16:06:34 UTC 2020 from 192.168.43.92 on pts/0
+lfs@ubuntuserver:~
+-->$ cat > ~/.bash_profile << "EOF"
+>  exec env -i HOME=$HOME TERM=$TERM /bin/bash
+> EOF
+lfs@ubuntuserver:~
+-->$ cat .bash_profile
+ exec env -i HOME=$HOME TERM=$TERM /bin/bash
+lfs@ubuntuserver:~
+-->$ vi .bashrc
+lfs@ubuntuserver:~
+-->$ echo " PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\[\n---->$" > .bashrc
+bash: .bashrc: Permission denied
+lfs@ubuntuserver:~
+-->$ ls -la
+total 32
+drwxr-xr-x 3 lfs  lfs  4096 Aug 15 16:28 .
+drwxr-xr-x 4 root root 4096 Aug 14 15:30 ..
+-rw------- 1 lfs  lfs   318 Aug 15 16:19 .bash_history
+-rw-rw-r-- 1 lfs  lfs    45 Aug 15 16:23 .bash_profile
+-rw-r--r-- 1 root root 3131 Aug 14 15:38 .bashrc
+drwx------ 2 lfs  lfs  4096 Aug 14 15:39 .cache
+-rw-r--r-- 1 root root  807 Aug 14 15:44 .profile
+-rw------- 1 lfs  lfs   823 Aug 15 16:28 .viminfo
+lfs@ubuntuserver:~
+-->$ chown lfs .bashrc
+chown: changing ownership of '.bashrc': Operation not permitted
+lfs@ubuntuserver:~
+-->$ sudo chown lfs .bashrc
+[sudo] password for lfs:
+lfs is not in the sudoers file.  This incident will be reported.
+lfs@ubuntuserver:~
+-->$ su -
+Password:
+root@ubuntuserver:~# chown lfs /home/lfs/.bashrc
+root@ubuntuserver:~# exit
+logout
+lfs@ubuntuserver:~
+-->$ ls -la
+total 32
+drwxr-xr-x 3 lfs  lfs  4096 Aug 15 16:28 .
+drwxr-xr-x 4 root root 4096 Aug 14 15:30 ..
+-rw------- 1 lfs  lfs   318 Aug 15 16:19 .bash_history
+-rw-rw-r-- 1 lfs  lfs    45 Aug 15 16:23 .bash_profile
+-rw-r--r-- 1 lfs  root 3131 Aug 14 15:38 .bashrc
+drwx------ 2 lfs  lfs  4096 Aug 14 15:39 .cache
+-rw-r--r-- 1 root root  807 Aug 14 15:44 .profile
+-rw------- 1 lfs  lfs   823 Aug 15 16:28 .viminfo
+lfs@ubuntuserver:~
+-->$ echo " PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\[\n---->$" > .bashrc
+lfs@ubuntuserver:~
+-->$ cat .bashrc
+ PS1='\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\[\n---->$
+lfs@ubuntuserver:~
+-->$ cat > ~/.bashrc << "EOF"
+> set +h
+> cat .bashrc^C
+lfs@ubuntuserver:~
+-->$ cat >> ~/.bashrc << "EOF"
+> set +h
+> umask 022
+> LFS=/mnt/lfs
+> LC_ALL=POSIx
+> u^C
+lfs@ubuntuserver:~
+-->$ cat >>
+_apt              irc               mail              pollinate         syslog            tss
+backup            landscape         man               proxy             systemd-coredump  uucp
+bin               lfs               messagebus        root              systemd-network   uuidd
+daemon            list              news              sshd              systemd-resolve   www-data
+games             lp                nobody            sync              systemd-timesync
+gnats             lxd               orxan             sys               tcpdump
+lfs@ubuntuserver:~
+-->$ cat >> ~/.bashrc << "EOF"
+> set +h
+> umask 022
+> LFS=/mnt/lfs
+> LC_ALL=POSIX
+> LFS_TGT=$(uname -m)-lfs-linux-gnu
+> PATH=/tools/bin:/bin:/usr/bin
+> export LFS LC_ALL LFS_TGT PATH
+> EOF
+lfs@ubuntuserver:~
+-->$ cat .bashrc
+ PS1='\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\[\n---->$
+set +h
+umask 022
+LFS=/mnt/lfs
+LC_ALL=POSIX
+LFS_TGT=$(uname -m)-lfs-linux-gnu
+PATH=/tools/bin:/bin:/usr/bin
+export LFS LC_ALL LFS_TGT PATH
+lfs@ubuntuserver:~
+-->$ source .bash_profile
+bash: /home/lfs/.bashrc: line 1: unexpected EOF while looking for matching `''
+bash: /home/lfs/.bashrc: line 9: syntax error: unexpected end of file
+lfs@ubuntuserver:~$ vi .bashrc
+lfs@ubuntuserver:~$ source .bash_profile
+32m]u@h[033[00m]:[033[01: command not found
+34m]w[033[00m][n----: command not found
+[033[01
+[033[01
+[033[01
+[033[01
+[033[01source .bash_profile
+^CFatal Python error: init_import_size: Failed to import the site module
+Python runtime state: initialized
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site.py", line 79, in <module>
+    import os
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 779, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 874, in get_code
+  File "<frozen importlib._bootstrap_external>", line 973, in get_data
+KeyboardInterrupt
+^X^C[033[01^C
+[033[01vi .bashrc
+[033[01source .bash_profile
+lfs@ubuntuserver:~
+-->$ vi .bashrc
+lfs@ubuntuserver:~
+-->$
+
